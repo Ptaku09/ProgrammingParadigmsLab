@@ -1,6 +1,6 @@
 import scala.annotation.tailrec
 
-object List2 {
+object List3 {
   // Exercise 1
   @tailrec
   def getLastElem[A](list: List[A]): Option[A] = list match {
@@ -37,7 +37,7 @@ object List2 {
       case elem :: rest => reverseRec(rest, elem :: reversed)
     }
 
-    reverseRec(list, Nil)
+    reverseRec(list, List())
   }
 
   // Exercise 5
@@ -56,14 +56,10 @@ object List2 {
   }
 
   // Exercise 6
-  private def checkPresence[A](list: List[A], elem: A): Boolean = {
-    @tailrec
-    def checkPresenceRec[A](list: List[A], elem: A): Boolean = list match {
-      case Nil => false
-      case elem1 :: rest => if (elem1 == elem) true else checkPresenceRec(rest, elem)
-    }
-
-    checkPresenceRec(list, elem)
+  @tailrec
+  private def checkPresence[A](list: List[A], elem: A): Boolean = list match {
+    case Nil => false
+    case elem1 :: rest => if (elem1 == elem) true else checkPresence(rest, elem)
   }
 
   def removeDuplicates[A](list: List[A]): List[A] = {

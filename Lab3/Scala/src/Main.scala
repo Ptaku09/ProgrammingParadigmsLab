@@ -1,5 +1,6 @@
+import List3.*
+
 import scala.annotation.tailrec
-import List2._
 
 object Main {
   @tailrec
@@ -74,48 +75,48 @@ object Main {
     input match {
       case "1" =>
         val list = getListFromUser
-        println("Last element: " + List2.getLastElem(list).getOrElse(None))
+        println("Last element: " + List3.getLastElem(list).getOrElse(None))
         menu()
 
       case "2" =>
         val list = getListFromUser
-        println("Last two elements: " + List2.getLastTwoElem(list).getOrElse(None))
+        println("Last two elements: " + List3.getLastTwoElem(list).getOrElse(None))
         menu()
 
       case "3" =>
         val list = getListFromUser
-        println("Length of list: " + List2.getLength(list))
+        println("Length of list: " + List3.getLength(list))
         menu()
 
       case "4" =>
         val list = getListFromUser
-        println("Reversed list: " + List2.reverse(list))
+        println("Reversed list: " + List3.reverse(list))
         menu()
 
       case "5" =>
         val list = getListFromUser
-        println("Is palindrome: " + List2.isPalindrome(list))
+        println("Is palindrome: " + List3.isPalindrome(list))
         menu()
 
       case "6" =>
         val list = getListFromUser
-        println("Is palindrome: " + List2.isPalindromeSmart(list))
+        println("Is palindrome: " + List3.isPalindromeSmart(list))
         menu()
 
       case "7" =>
         val list = getListFromUser
-        println("List without duplicates: " + List2.removeDuplicates(list))
+        println("List without duplicates: " + List3.removeDuplicates(list))
         menu()
 
       case "8" =>
         val list = getListFromUser
-        println("Elements from even indexes: " + List2.getEvenIndexes(list))
+        println("Elements from even indexes: " + List3.getEvenIndexes(list))
         menu()
 
       case "9" =>
         println("Please enter a number:")
         val number = scala.io.StdIn.readInt()
-        println("Is prime: " + List2.isPrime(number))
+        println("Is prime: " + List3.isPrime(number))
         menu()
 
       case "0" => println("Goodbye!")
