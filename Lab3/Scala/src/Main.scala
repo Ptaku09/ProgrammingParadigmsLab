@@ -28,8 +28,7 @@ object Main {
 
       case "2" =>
         println("Please enter a list of Strings (separate elements by space):")
-        val list = scala.io.StdIn.readLine().split(" ").toList
-        list
+        scala.io.StdIn.readLine().split(" ").toList
 
       case "3" =>
         println("Please enter a list of Doubles (separate elements by space):")
@@ -114,14 +113,16 @@ object Main {
         menu()
 
       case "9" =>
-        println("Please enter a number:")
+        println("Please enter a number: ")
         val number = scala.io.StdIn.readInt()
         println("Is prime: " + List3.isPrime(number))
         menu()
 
-      case "0" => println("Goodbye!")
+      case "0" =>
+        println("Goodbye!")
 
-      case _ => println("Invalid input. Please try again.")
+      case _ =>
+        println("Invalid input. Please try again.")
         menu()
     }
   }
