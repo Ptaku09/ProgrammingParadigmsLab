@@ -1,6 +1,6 @@
 //Exercise 1
 //  Point
-type Point2D = (Double, Double)
+type Point2D = (Float, Float)
 
 def distance(p1: Point2D, p2: Point2D) = {
   Math.sqrt(Math.pow(p1._1 - p2._1, 2) + Math.pow(p1._2 - p2._2, 2))
@@ -10,12 +10,12 @@ distance((0, 0), (2, 0))
 
 //Exercise 2
 //  Person - object
-class PersonObject(var name: String, var surname: String, var age: Int, var gender: "M" | "F", var height: Double)
-class PartnershipObject(var person1: PersonObject, var person2: PersonObject)
+case class PersonObject(var name: String, var surname: String, var age: Int, var gender: "M" | "F", var height: Double)
+case class PartnershipObject(var person1: PersonObject, var person2: PersonObject)
 
 val personObj1 = new PersonObject("John", "Doe", 30, "M", 1.80)
 val personObj2 = new PersonObject("Jane", "Doe", 32, "F", 1.60)
-val partnershipObj = new PartnershipObject(personObj1, personObj2)
+val partnershipObj = PartnershipObject(personObj1, personObj2)
 
 //  Change age
 partnershipObj.person2.age = 28
@@ -99,8 +99,8 @@ case class Cylinder(var r: Double, var h: Double) extends SolidFigure
 def volume(block: SolidFigure) = {
   block match {
     case Cuboid(a, b, h) => a * b * h
-    case Cone(r, h) => (1/3) * Math.PI * Math.pow(r, 2) * h
-    case Sphere(r) => (4/3) * Math.PI * Math.pow(r, 3)
+    case Cone(r, h) => (1 / 3.0) * Math.PI * Math.pow(r, 2) * h
+    case Sphere(r) => (4 / 3.0) * Math.PI * Math.pow(r, 3)
     case Cylinder(r, h) => Math.PI * Math.pow(r, 2) * h
   }
 }
