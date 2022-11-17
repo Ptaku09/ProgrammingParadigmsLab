@@ -3,7 +3,8 @@ let rec stirling (n, m) =
   if m = 0 || m = 1 || n = m then 1
   else stirling (n - 1, m - 1) + m * stirling (n - 1, m);;
 
-(* print_int (stirling (100, 6));; *)
+print_string "1a\n";;
+print_int (stirling (15, 6));;
 
 (* Exercise 1b *)
 let memoized_stirling (n, m) = 
@@ -19,8 +20,8 @@ let memoized_stirling (n, m) =
   in
   f_mem (n, m);;
 
-print_newline ();;
-(* print_int (memoized_stirling (100, 6));; *)
+print_string "\n\n1b\n";;
+print_int (memoized_stirling (15, 6));;
 
 (* Exercise 2 *)
 let make_memoize f =
@@ -39,17 +40,17 @@ let rec fibo n = match n with
 | 1 -> 1
 | n -> fibo (n - 1) + fibo (n - 2);;
 
+print_string "\n\n2 - fibo\n";;
+print_int (fibo 40);;
+
 let fib self = function
     0 -> 1
   | 1 -> 1
   | n -> self (n - 1) + self (n - 2);;
 
-print_newline ();;
-(* print_int (fibo 40);; *)
-
 let memoized_fib = make_memoize fib;;
-print_newline ();;
-(* print_int (memoized_fib 40);; *)
+print_string "\n\n2 - memoized fibo\n";;
+print_int (memoized_fib 40);;
 
 (* Exercise 4a *)
 type 'a sequence = Cons of 'a * (unit -> 'a sequence);;
