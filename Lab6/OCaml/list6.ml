@@ -79,14 +79,14 @@ Cons (_, xf) -> xf ();;
 let rec take (n, lxs) =
   match (n, lxs) with
   | (0, _) -> []
-  | (n, Cons (x, xf)) -> x :: take (n - 1, xf ());;
+  | (n, lxs) -> stream_head lxs :: take (n - 1, stream_tail lxs);;
 
 (* ii *)
 let take2 (n, lxs) =
   let rec take2_rec (n, lxs, counter) =
     match (n, lxs, counter) with
     | (0, _, _) -> []
-    | (n, Cons (x, xf), counter) -> if counter mod 2 = 0 then x :: take2_rec (n - 1, xf (), counter + 1) else take2_rec (n, xf (), counter + 1)
+    | (n, lxs, counter) -> if counter mod 2 = 0 then stream_head lxs :: take2_rec (n - 1, stream_tail lxs, counter + 1) else take2_rec (n, stream_tail lxs, counter + 1)
   
   in take2_rec (n, lxs, 0);;
 
@@ -94,7 +94,7 @@ let take2 (n, lxs) =
 let rec skip (n, lxs) =
   match (n, lxs) with
   | (0, _) -> lxs
-  | (n, Cons (x, xf)) -> skip (n - 1, xf ());;
+  | (n, lxs) -> skip (n - 1, stream_tail lxs);;
 
 (* iv *)
 let rec from_natural n = Cons (n, fun () -> from_natural (n + 1));;
@@ -102,13 +102,13 @@ let rec from_natural n = Cons (n, fun () -> from_natural (n + 1));;
 let rec zip (s1, s2, n) =
   match (s1, s2, n) with
   | (_, _, 0) -> []
-  | (Cons (x, xf), Cons (y, yf), n) -> (x, y) :: zip (xf (), yf (), n - 1);;
+  | (s1, s2, n) -> (stream_head s1, stream_head s2) :: zip (stream_tail s1, stream_tail s2, n - 1);;
 
 (* v *)
 let rec map f s n =
   match (s, n) with
   | (_, 0) -> []
-  | (Cons (x, xf), n) -> (f x) :: map f (xf ()) (n - 1);; 
+  | (s, n) -> (f stream_head s) :: map f (stream_tail s) (n - 1);; 
 
 
 (* Tests *)
