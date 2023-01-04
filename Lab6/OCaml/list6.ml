@@ -108,7 +108,7 @@ let rec zip (s1, s2, n) =
 let rec map f s n =
   match (s, n) with
   | (_, 0) -> []
-  | (s, n) -> (f stream_head s) :: map f (stream_tail s) (n - 1);; 
+  | (s, n) -> (f (stream_head s)) :: map f (stream_tail s) (n - 1);; 
 
 
 (* Tests *)

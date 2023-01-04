@@ -1,1 +1,2 @@
-Cons (x, xf)
+
+let rec fibo n = match n with
