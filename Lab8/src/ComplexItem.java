@@ -3,7 +3,7 @@ import org.opencv.core.Mat;
 import java.util.ArrayList;
 
 public class ComplexItem extends Item {
-    private ArrayList<Item> children;
+    private final ArrayList<Item> children;
 
     public ComplexItem(MyPoint position) {
         super(position);
