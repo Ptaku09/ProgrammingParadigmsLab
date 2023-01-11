@@ -7,7 +7,7 @@ import org.opencv.imgcodecs.Imgcodecs;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Scene {
+public class Scene implements SingleTriangle {
     private final List<Item> items;
 
     public Scene() {
@@ -16,6 +16,7 @@ public class Scene {
 
     public void addItem(Item item) {
         items.add(item);
+        removeDuplicatedTriangles(items);
     }
 
     public void draw() {

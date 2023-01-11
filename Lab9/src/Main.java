@@ -41,6 +41,10 @@ public class Main {
         scene.addItem(snowman);
         scene.addItem(spiral);
 
+        Triangle triangleReplacement = new Triangle(new MyPoint(1200, 600), new MyPoint(100, 300), new MyPoint(150, 450), new MyPoint(400, 50), false);
+
+        scene.addItem(triangleReplacement);
+
         scene.draw();
     }
 }
