@@ -33,4 +33,9 @@ public class MyPoint {
     public Point toPoint() {
         return new Point(x, y);
     }
+
+    @Override
+    public String toString() {
+        return String.format("%-1s%-4d%-2s%-4d%-1s", "(", x, ", ", y, ")");
+    }
 }

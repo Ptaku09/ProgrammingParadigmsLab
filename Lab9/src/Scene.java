@@ -7,18 +7,20 @@ import org.opencv.imgcodecs.Imgcodecs;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Scene {
+public class Scene implements Selectable {
     private final List<Item> items;
 
     public Scene() {
         items = new ArrayList<>();
     }
 
+    @Override
     public void addItem(Item item) {
         items.add(item);
     }
 
-    public void draw() {
+    @Override
+    public void draw(List<Item> items) {
         System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
         Mat mat = new Mat(1080, 1920, CvType.CV_8UC3, new Scalar(255, 255, 255));
 
@@ -29,5 +31,9 @@ public class Scene {
         Imgcodecs.imwrite("image.jpg", mat);
 //        HighGui.imshow("Your draw", mat);
 //        HighGui.waitKey();
+    }
+
+    public List<Item> getItems() {
+        return items;
     }
 }

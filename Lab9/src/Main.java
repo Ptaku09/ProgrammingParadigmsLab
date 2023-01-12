@@ -32,7 +32,16 @@ public class Main {
         snowman.addChild(top);
         // -----------------------------------------------------------------------------------------------------
 
+        SelectableDecorator selectableScene = new SelectionDecorator(new DrawDecorator(new Scene()));
         Scene scene = new Scene();
+        selectableScene.addItem(rect);
+        selectableScene.addItem(triangle);
+        selectableScene.addItem(circle);
+        selectableScene.addItem(segment);
+        selectableScene.addItem(textItem);
+        selectableScene.addItem(snowman);
+        selectableScene.addItem(spiral);
+
         scene.addItem(rect);
         scene.addItem(triangle);
         scene.addItem(circle);
@@ -41,6 +50,6 @@ public class Main {
         scene.addItem(snowman);
         scene.addItem(spiral);
 
-        scene.draw();
+        selectableScene.draw(scene.getItems());
     }
 }
