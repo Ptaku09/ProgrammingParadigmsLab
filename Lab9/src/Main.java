@@ -33,7 +33,7 @@ public class Main {
         // -----------------------------------------------------------------------------------------------------
 
         SelectableDecorator selectableScene = new SelectionDecorator(new DrawDecorator(new Scene()));
-        Scene scene = new Scene();
+
         selectableScene.addItem(rect);
         selectableScene.addItem(triangle);
         selectableScene.addItem(circle);
@@ -42,14 +42,6 @@ public class Main {
         selectableScene.addItem(snowman);
         selectableScene.addItem(spiral);
 
-        scene.addItem(rect);
-        scene.addItem(triangle);
-        scene.addItem(circle);
-        scene.addItem(segment);
-        scene.addItem(textItem);
-        scene.addItem(snowman);
-        scene.addItem(spiral);
-
-        selectableScene.draw(scene.getItems());
+        selectableScene.draw();
     }
 }

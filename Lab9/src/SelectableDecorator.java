@@ -1,15 +1,13 @@
-import java.util.List;
-
 public class SelectableDecorator implements Selectable {
-    protected final Selectable selectable;
+    private final Selectable selectable;
 
     public SelectableDecorator(Selectable selectable) {
         this.selectable = selectable;
     }
 
     @Override
-    public void draw(List<Item> items) {
-        selectable.draw(items);
+    public void draw() {
+        selectable.draw();
     }
 
     @Override

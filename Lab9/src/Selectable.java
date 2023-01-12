@@ -1,7 +1,5 @@
-import java.util.List;
-
 public interface Selectable {
-    void draw(List<Item> items);
+    void draw();
 
     void addItem(Item item);
 }

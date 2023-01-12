@@ -20,7 +20,7 @@ public class Scene implements Selectable {
     }
 
     @Override
-    public void draw(List<Item> items) {
+    public void draw() {
         System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
         Mat mat = new Mat(1080, 1920, CvType.CV_8UC3, new Scalar(255, 255, 255));
 
@@ -31,9 +31,5 @@ public class Scene implements Selectable {
         Imgcodecs.imwrite("image.jpg", mat);
 //        HighGui.imshow("Your draw", mat);
 //        HighGui.waitKey();
-    }
-
-    public List<Item> getItems() {
-        return items;
     }
 }
