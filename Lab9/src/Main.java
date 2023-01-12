@@ -4,6 +4,7 @@ public class Main {
         Triangle triangle = new Triangle(new MyPoint(0, 0), new MyPoint(0, 400), new MyPoint(100, 100), new MyPoint(0, 0), true);
         Circle circle = new Circle(new MyPoint(500, 500), 250, true);
         Segment segment = new Segment(new MyPoint(0, 0), 200, new MyPoint(0, 0), new MyPoint(1920, 1080));
+        Segment segment2 = new Segment(new MyPoint(540, 730), 200, new MyPoint(0, 0), new MyPoint(120, 180));
         TextItem textItem = new TextItem(new MyPoint(200, 300), "Hello World!");
         Spiral spiral = new Spiral(new MyPoint(1000, 200), 200, 5, false);
 
@@ -38,6 +39,7 @@ public class Main {
         selectableScene.addItem(triangle);
         selectableScene.addItem(circle);
         selectableScene.addItem(segment);
+        selectableScene.addItem(segment2);
         selectableScene.addItem(textItem);
         selectableScene.addItem(snowman);
         selectableScene.addItem(spiral);

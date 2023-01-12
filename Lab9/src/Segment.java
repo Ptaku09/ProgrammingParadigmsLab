@@ -38,10 +38,10 @@ public class Segment extends Primitive {
         int minX = Math.min(start.getX(), end.getX());
         int minY = Math.min(start.getY(), end.getY());
 
-        points[0] = new MyPoint(minX, maxY);
-        points[1] = new MyPoint(maxX, maxY);
-        points[2] = new MyPoint(maxX, minY);
-        points[3] = new MyPoint(minX, minY);
+        points[0] = new MyPoint(minX, minY);
+        points[1] = new MyPoint(maxX, minY);
+        points[2] = new MyPoint(maxX, maxY);
+        points[3] = new MyPoint(minX, maxY);
 
         setPosition(points[0]);
 

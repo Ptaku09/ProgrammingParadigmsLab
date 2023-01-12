@@ -43,10 +43,10 @@ public class Triangle extends Shape {
         int minX = Math.min(p1.getX(), Math.min(p2.getX(), p3.getX()));
         int minY = Math.min(p1.getY(), Math.min(p2.getY(), p3.getY()));
 
-        points[0] = new MyPoint(minX, maxY);
-        points[1] = new MyPoint(maxX, maxY);
-        points[2] = new MyPoint(maxX, minY);
-        points[3] = new MyPoint(minX, minY);
+        points[0] = new MyPoint(minX, minY);
+        points[1] = new MyPoint(maxX, minY);
+        points[2] = new MyPoint(maxX, maxY);
+        points[3] = new MyPoint(minX, maxY);
 
         setPosition(points[0]);
 

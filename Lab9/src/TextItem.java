@@ -3,6 +3,8 @@ import org.opencv.core.Scalar;
 import org.opencv.imgproc.Imgproc;
 
 public class TextItem extends Item {
+    private static final int FONT_SIZE = 23;
+    private static final int FONT_WIDTH = 15;
     private String text;
 
     public TextItem(MyPoint position, String text) {
@@ -24,16 +26,20 @@ public class TextItem extends Item {
         MyPoint[] points = new MyPoint[4];
 
         points[0] = getPosition();
-        points[1] = new MyPoint(getPosition().getX() + text.length() * 10, getPosition().getY());
-        points[2] = new MyPoint(getPosition().getX() + text.length() * 10, getPosition().getY() + 10);
-        points[3] = new MyPoint(getPosition().getX(), getPosition().getY() + 10);
+        points[1] = new MyPoint(getPosition().getX() + text.length() * FONT_WIDTH, getPosition().getY());
+        points[2] = new MyPoint(getPosition().getX() + text.length() * FONT_WIDTH, getPosition().getY() + FONT_SIZE);
+        points[3] = new MyPoint(getPosition().getX(), getPosition().getY() + FONT_SIZE);
 
         return points;
     }
 
     @Override
     public Mat draw(Mat image) {
-        Imgproc.putText(image, text, getPosition().toPoint(), Imgproc.FONT_HERSHEY_SIMPLEX, 1, new Scalar(0, 0, 255), 2);
+        MyPoint position = getPosition();
+        // adjust position to match the upper left corner of the text
+        position.add(new MyPoint(0, FONT_SIZE));
+
+        Imgproc.putText(image, text, position.toPoint(), Imgproc.FONT_HERSHEY_SIMPLEX, 1, new Scalar(0, 0, 255), 2);
 
         return image;
     }
