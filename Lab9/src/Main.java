@@ -32,7 +32,7 @@ public class Main {
         snowman.addChild(top);
         // -----------------------------------------------------------------------------------------------------
 
-        SelectableDecorator selectableScene = new SelectionDecorator(new DrawDecorator(new Scene()));
+        SelectableDecorator selectableScene = new SelectItemDecorator(new DisplayBoundingBoxDecorator(new Scene()));
 
         selectableScene.addItem(rect);
         selectableScene.addItem(triangle);

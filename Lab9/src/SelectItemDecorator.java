@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-public class SelectionDecorator extends SelectableDecorator {
-    public SelectionDecorator(Selectable selectable) {
+public class SelectItemDecorator extends SelectableDecorator {
+    public SelectItemDecorator(Selectable selectable) {
         super(selectable);
     }
 

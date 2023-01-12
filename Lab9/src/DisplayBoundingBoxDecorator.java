@@ -1,5 +1,5 @@
-public class DrawDecorator extends SelectableDecorator {
-    public DrawDecorator(Selectable selectable) {
+public class DisplayBoundingBoxDecorator extends SelectableDecorator {
+    public DisplayBoundingBoxDecorator(Selectable selectable) {
         super(selectable);
     }
 
@@ -11,5 +11,11 @@ public class DrawDecorator extends SelectableDecorator {
         }
 
         super.addItem(item);
+    }
+
+    @Override
+    public void draw() {
+        System.out.println("Drawing...");
+        super.draw();
     }
 }
