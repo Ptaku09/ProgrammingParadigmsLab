@@ -3,6 +3,8 @@ package ex1;
 import java.util.InputMismatchException;
 import java.util.Random;
 import java.util.Scanner;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -14,31 +16,27 @@ public class Main {
     public static void main(String[] args) {
         int numberOfThreads = readNumberOfThreads();
         int duration = readDuration();
+        ScheduledExecutorService executors = Executors.newScheduledThreadPool(numberOfThreads);
 
         for (int i = 0; i < numberOfThreads; i++) {
-            new Thread(() -> {
-                while (true) {
-                    int operation = RAND.nextInt(2);
+            executors.scheduleAtFixedRate(() -> {
+                int operation = RAND.nextInt(2);
 
-                    synchronized (GLOBAL_VARIABLE) {
-                        if (operation == 0) {
-                            GLOBAL_VARIABLE.incrementAndGet();
-                        } else {
-                            GLOBAL_VARIABLE.incrementAndGet();
-                        }
-                    }
-                }
-            }).start();
+                if (operation == 0)
+                    GLOBAL_VARIABLE.incrementAndGet();
+                else
+                    GLOBAL_VARIABLE.decrementAndGet();
+            }, 0, RAND.nextInt(100, 500), TimeUnit.MILLISECONDS);
         }
 
         try {
             Thread.sleep(TimeUnit.SECONDS.toMillis(duration));
+            executors.shutdown();
         } catch (InterruptedException e) {
             System.out.println("Interrupted");
         }
 
         System.out.println("Result: " + GLOBAL_VARIABLE);
-        System.exit(0);
     }
 
     private static int readNumberOfThreads() {
