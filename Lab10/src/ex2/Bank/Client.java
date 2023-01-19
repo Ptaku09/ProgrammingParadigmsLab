@@ -8,7 +8,8 @@ import java.util.concurrent.TimeUnit;
 public class Client {
     private static final float MIN_AMOUNT = 200f;
     private static final float MAX_AMOUNT = 10000f;
-    private static final int OPERATION_INTERVAL_TIME = 500;
+    private static final int MIN_OPERATION_INTERVAL_TIME = 100;
+    private static final int MAX_OPERATION_INTERVAL_TIME = 500;
     private static final Random RAND = new Random();
     private final ScheduledExecutorService executor = Executors.newSingleThreadScheduledExecutor();
     private final Account account;
@@ -23,7 +24,7 @@ public class Client {
 
     public void start() {
         executor.scheduleAtFixedRate(() -> {
-            synchronized (RAND) {
+            synchronized (Bank.ACCOUNTS) {
                 switch (getRandomOperation()) {
                     case DEPOSIT -> account.deposit(RAND.nextFloat(MIN_AMOUNT, MAX_AMOUNT));
                     case WITHDRAW -> account.withdraw(RAND.nextFloat(MIN_AMOUNT, MAX_AMOUNT));
@@ -35,7 +36,7 @@ public class Client {
                     }
                 }
             }
-        }, 0, OPERATION_INTERVAL_TIME, TimeUnit.MILLISECONDS);
+        }, 0, RAND.nextInt(MIN_OPERATION_INTERVAL_TIME, MAX_OPERATION_INTERVAL_TIME), TimeUnit.MILLISECONDS);
     }
 
     public void stop() {
