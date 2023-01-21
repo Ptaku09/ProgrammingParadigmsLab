@@ -8,5 +8,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="apache.commons.lang3" level="project" />
+    <orderEntry type="library" name="typesafe.akka.actor.typed_2.13" level="project" />
+    <orderEntry type="library" name="slf4j.jdk14" level="project" />
   </component>
 </module>
