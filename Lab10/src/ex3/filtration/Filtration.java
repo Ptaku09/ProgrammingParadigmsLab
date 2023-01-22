@@ -41,8 +41,8 @@ public class Filtration extends AbstractBehavior<Filtration.Command> {
     }
 
     // Actor creation ---------------------------------------------------
-    public static Behavior<Command> create(ActorRef<Warehouse.Command> warehouse, ActorRef<Fermentation.Command> fermentation) {
-        return Behaviors.setup(context -> new Filtration(context, warehouse, fermentation));
+    public static Behavior<Command> create(ActorRef<Warehouse.Command> warehouse, ActorRef<Fermentation.Command> fermentation, int speed) {
+        return Behaviors.setup(context -> new Filtration(context, warehouse, fermentation, speed));
     }
 
     // Actor state ------------------------------------------------------
@@ -58,7 +58,7 @@ public class Filtration extends AbstractBehavior<Filtration.Command> {
     private int unfilteredWine = 0;
 
     // Constructor ------------------------------------------------------
-    private Filtration(ActorContext<Command> context, ActorRef<Warehouse.Command> warehouse, ActorRef<Fermentation.Command> fermentation) {
+    private Filtration(ActorContext<Command> context, ActorRef<Warehouse.Command> warehouse, ActorRef<Fermentation.Command> fermentation, int speed) {
         super(context);
         this.warehouse = warehouse;
 
@@ -66,7 +66,7 @@ public class Filtration extends AbstractBehavior<Filtration.Command> {
 
         // Create the slots
         for (int i = 0; i < SLOTS; i++) {
-            slots.put(i, context.spawn(FiltrationSlot.create(i, Duration.ofMillis(PROCESSING_TIME_MINUTES * 10)), "fermentation-slot-" + i));
+            slots.put(i, context.spawn(FiltrationSlot.create(i, Duration.ofMillis(PROCESSING_TIME_MINUTES * 10 / speed)), "fermentation-slot-" + i));
             freeSlots.add(i);
         }
     }

@@ -41,8 +41,8 @@ public class Bottling extends AbstractBehavior<Bottling.Command> {
     }
 
     // Actor creation ---------------------------------------------------
-    public static Behavior<Command> create(ActorRef<Warehouse.Command> warehouse, ActorRef<Filtration.Command> filtration, int bottles) {
-        return Behaviors.setup(context -> new Bottling(context, warehouse, filtration, bottles));
+    public static Behavior<Command> create(ActorRef<Warehouse.Command> warehouse, ActorRef<Filtration.Command> filtration, int bottles, int speed) {
+        return Behaviors.setup(context -> new Bottling(context, warehouse, filtration, bottles, speed));
     }
 
     // Actor state ------------------------------------------------------
@@ -59,7 +59,7 @@ public class Bottling extends AbstractBehavior<Bottling.Command> {
     private int bottles;
 
     // Constructor ------------------------------------------------------
-    private Bottling(ActorContext<Command> context, ActorRef<Warehouse.Command> warehouse, ActorRef<Filtration.Command> filtration, int bottles) {
+    private Bottling(ActorContext<Command> context, ActorRef<Warehouse.Command> warehouse, ActorRef<Filtration.Command> filtration, int bottles, int speed) {
         super(context);
         this.warehouse = warehouse;
         this.bottles = bottles;
@@ -68,7 +68,7 @@ public class Bottling extends AbstractBehavior<Bottling.Command> {
 
         // Create the slots
         for (int i = 0; i < SLOTS; i++) {
-            slots.put(i, context.spawn(BottlingSlot.create(i, Duration.ofMillis(PROCESSING_TIME_MINUTES * 10)), "stamping-slot-" + i));
+            slots.put(i, context.spawn(BottlingSlot.create(i, Duration.ofMillis(PROCESSING_TIME_MINUTES * 10 / speed)), "stamping-slot-" + i));
             freeSlots.add(i);
         }
     }

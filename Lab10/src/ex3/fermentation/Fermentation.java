@@ -57,8 +57,8 @@ public class Fermentation extends AbstractBehavior<Fermentation.Command> {
     }
 
     // Actor creation ---------------------------------------------------
-    public static Behavior<Command> create(ActorRef<Warehouse.Command> warehouse, ActorRef<Stamping.Command> stamping, int water, int sugar) {
-        return Behaviors.setup(context -> new Fermentation(context, warehouse, stamping, water, sugar));
+    public static Behavior<Command> create(ActorRef<Warehouse.Command> warehouse, ActorRef<Stamping.Command> stamping, int water, int sugar, int speed) {
+        return Behaviors.setup(context -> new Fermentation(context, warehouse, stamping, water, sugar, speed));
     }
 
     // Actor state ------------------------------------------------------
@@ -78,7 +78,7 @@ public class Fermentation extends AbstractBehavior<Fermentation.Command> {
     private int sugar;
 
     // Constructor ------------------------------------------------------
-    private Fermentation(ActorContext<Command> context, ActorRef<Warehouse.Command> warehouse, ActorRef<Stamping.Command> stamping, int water, int sugar) {
+    private Fermentation(ActorContext<Command> context, ActorRef<Warehouse.Command> warehouse, ActorRef<Stamping.Command> stamping, int water, int sugar, int speed) {
         super(context);
         this.warehouse = warehouse;
         this.water = water;
@@ -88,7 +88,7 @@ public class Fermentation extends AbstractBehavior<Fermentation.Command> {
 
         // Create the slots
         for (int i = 0; i < SLOTS; i++) {
-            slots.put(i, context.spawn(FermentationSlot.create(i, Duration.ofMillis(PROCESSING_TIME_MINUTES * 10)), "fermentation-slot-" + i));
+            slots.put(i, context.spawn(FermentationSlot.create(i, Duration.ofMillis(PROCESSING_TIME_MINUTES * 10 / speed)), "fermentation-slot-" + i));
             freeSlots.add(i);
         }
     }

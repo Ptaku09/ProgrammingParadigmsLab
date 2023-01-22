@@ -39,8 +39,8 @@ public class Stamping extends AbstractBehavior<Stamping.Command> {
     }
 
     // Actor creation ---------------------------------------------------
-    public static Behavior<Command> create(ActorRef<Warehouse.Command> warehouse) {
-        return Behaviors.setup(context -> new Stamping(context, warehouse));
+    public static Behavior<Command> create(ActorRef<Warehouse.Command> warehouse, int speed) {
+        return Behaviors.setup(context -> new Stamping(context, warehouse, speed));
     }
 
     // Actor state ------------------------------------------------------
@@ -55,13 +55,13 @@ public class Stamping extends AbstractBehavior<Stamping.Command> {
     private int grapes = 0;
 
     // Constructor ------------------------------------------------------
-    private Stamping(ActorContext<Command> context, ActorRef<Warehouse.Command> warehouse) {
+    private Stamping(ActorContext<Command> context, ActorRef<Warehouse.Command> warehouse, int speed) {
         super(context);
         this.warehouse = warehouse;
 
         // Create the slots
         for (int i = 0; i < SLOTS; i++) {
-            slots.put(i, context.spawn(StampingSlot.create(i, Duration.ofMillis(PROCESSING_TIME_MINUTES * 10)), "stamping-slot-" + i));
+            slots.put(i, context.spawn(StampingSlot.create(i, Duration.ofMillis(PROCESSING_TIME_MINUTES * 10 / speed)), "stamping-slot-" + i));
             freeSlots.add(i);
         }
     }
