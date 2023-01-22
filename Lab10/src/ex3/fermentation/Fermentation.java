@@ -95,42 +95,38 @@ public class Fermentation extends AbstractBehavior<Fermentation.Command> {
 
     private Behavior<Command> onAddJuice(AddJuice msg) {
         juice += msg.juiceAmount;
-        checkProducts();
+        beginProcessing();
 
         return this;
     }
 
     private Behavior<Command> onAddWater(AddWater msg) {
         water += msg.waterAmount;
-        checkProducts();
+        beginProcessing();
 
         return this;
     }
 
     private Behavior<Command> onAddSugar(AddSugar msg) {
         sugar += msg.sugarAmount;
-        checkProducts();
+        beginProcessing();
 
         return this;
     }
 
-    private void checkProducts() {
-        if (juice >= REQUIRED_JUICE_KG && water >= REQUIRED_WATER_L && sugar >= REQUIRED_SUGAR_KG) {
-            beginProcessing();
-        }
-    }
-
     private void beginProcessing() {
-        if (!freeSlots.isEmpty()) {
+        while (checkProducts() && !freeSlots.isEmpty()) {
             juice -= REQUIRED_JUICE_KG;
             water -= REQUIRED_WATER_L;
             sugar -= REQUIRED_SUGAR_KG;
             int slotNumber = freeSlots.poll();
 
             slots.get(slotNumber).tell(new FermentationSlot.BeginProcessing(getContext().getSelf()));
-        } else {
-            getContext().getLog().info("Fermentation - no free slots");
         }
+    }
+
+    private boolean checkProducts() {
+        return juice >= REQUIRED_JUICE_KG && water >= REQUIRED_WATER_L && sugar >= REQUIRED_SUGAR_KG;
     }
 
     private Behavior<Command> onFinishedProcessing(FinishedProcessing msg) {
@@ -138,11 +134,10 @@ public class Fermentation extends AbstractBehavior<Fermentation.Command> {
         freeSlots.add(msg.slotNumber);
 
         if (isSuccessful()) {
-            // Tell filtration to begin
-            // * HERE *
+            warehouse.tell(new Warehouse.AddUnfilteredWine(PRODUCED_UNFILTERED_WINE_L));
         }
 
-        checkProducts();
+        beginProcessing();
 
         return this;
     }

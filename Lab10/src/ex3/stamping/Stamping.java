@@ -73,26 +73,23 @@ public class Stamping extends AbstractBehavior<Stamping.Command> {
 
     private Behavior<Command> onAddGrapes(AddGrapes msg) {
         grapes += msg.amount;
-        checkProducts();
+
+        beginProcessing();
 
         return this;
     }
 
-    private void checkProducts() {
-        if (grapes >= REQUIRED_GRAPES_KG) {
-            beginProcessing();
-        }
-    }
-
     private void beginProcessing() {
-        if (!freeSlots.isEmpty()) {
+        while (checkProducts() && !freeSlots.isEmpty()) {
             grapes -= REQUIRED_GRAPES_KG;
             int slotNumber = freeSlots.poll();
 
             slots.get(slotNumber).tell(new StampingSlot.BeginProcessing(getContext().getSelf()));
-        } else {
-            getContext().getLog().info("Stamping - no free slots");
         }
+    }
+
+    private boolean checkProducts() {
+        return grapes >= REQUIRED_GRAPES_KG;
     }
 
     private Behavior<Command> onFinishedProcessing(FinishedProcessing msg) {
@@ -104,8 +101,8 @@ public class Stamping extends AbstractBehavior<Stamping.Command> {
             warehouse.tell(new Warehouse.AddJuice(PRODUCED_JUICE_L));
         }
 
-        // Check if something is left to begin processing again
-        checkProducts();
+        // Begin processing again
+        beginProcessing();
 
         return this;
     }

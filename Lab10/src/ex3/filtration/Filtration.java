@@ -73,24 +73,23 @@ public class Filtration extends AbstractBehavior<Filtration.Command> {
 
     private Behavior<Command> onAddUnfilteredWine(AddUnfilteredWine msg) {
         unfilteredWine += msg.unfilteredWineAmount;
+
+        beginProcessing();
+
         return this;
     }
 
-    private void checkProducts() {
-        if (unfilteredWine >= REQUIRED_UNFILTERED_WINE_L) {
-            beginProcessing();
-        }
-    }
-
     private void beginProcessing() {
-        if (!freeSlots.isEmpty()) {
+        while (checkProducts() && !freeSlots.isEmpty()) {
             unfilteredWine -= REQUIRED_UNFILTERED_WINE_L;
             int slotNumber = freeSlots.poll();
 
             slots.get(slotNumber).tell(new FiltrationSlot.BeginProcessing(getContext().getSelf()));
-        } else {
-            getContext().getLog().info("Filtration - no free slots");
         }
+    }
+
+    private boolean checkProducts() {
+        return unfilteredWine >= REQUIRED_UNFILTERED_WINE_L;
     }
 
     private Behavior<Command> onFinishedProcessing(FinishedProcessing msg) {
@@ -98,10 +97,10 @@ public class Filtration extends AbstractBehavior<Filtration.Command> {
         freeSlots.add(msg.slotNumber);
 
         if (isSuccessful()) {
-            // TODO: Send the filtered wine to the bottling
+            warehouse.tell(new Warehouse.AddFilteredWine(PRODUCED_FILTERED_WINE_L));
         }
 
-        checkProducts();
+        beginProcessing();
 
         return this;
     }
