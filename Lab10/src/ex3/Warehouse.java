@@ -6,6 +6,7 @@ import akka.actor.typed.javadsl.AbstractBehavior;
 import akka.actor.typed.javadsl.ActorContext;
 import akka.actor.typed.javadsl.Behaviors;
 import akka.actor.typed.javadsl.Receive;
+import ex3.bottling.Bottling;
 import ex3.fermentation.Fermentation;
 import ex3.filtration.Filtration;
 import ex3.stamping.Stamping;
@@ -42,6 +43,14 @@ public class Warehouse extends AbstractBehavior<Warehouse.Command> {
         }
     }
 
+    public static final class AddBottles implements Command {
+        final int bottlesAmount;
+
+        public AddBottles(int bottlesAmount) {
+            this.bottlesAmount = bottlesAmount;
+        }
+    }
+
     // Actor creation ---------------------------------------------------
     public static Behavior<Command> create(int grapes, int water, int sugar, int bottles) {
         return Behaviors.setup(context -> new Warehouse(context, grapes, water, sugar, bottles));
@@ -51,6 +60,7 @@ public class Warehouse extends AbstractBehavior<Warehouse.Command> {
     private final ActorRef<Stamping.Command> stamping;
     private final ActorRef<Fermentation.Command> fermentation;
     private final ActorRef<Filtration.Command> filtration;
+    private final ActorRef<Bottling.Command> bottling;
     private int grapes;
     private int water;
     private int sugar;
@@ -71,6 +81,7 @@ public class Warehouse extends AbstractBehavior<Warehouse.Command> {
         this.stamping = context.spawn(Stamping.create(getContext().getSelf()), "stamping");
         this.fermentation = context.spawn(Fermentation.create(getContext().getSelf()), "fermentation");
         this.filtration = context.spawn(Filtration.create(getContext().getSelf()), "filtration");
+        this.bottling = context.spawn(Bottling.create(getContext().getSelf(), bottles), "bottling");
     }
 
     @Override
@@ -80,6 +91,7 @@ public class Warehouse extends AbstractBehavior<Warehouse.Command> {
                 .onMessage(AddJuice.class, this::onAddJuice)
                 .onMessage(AddUnfilteredWine.class, this::onAddUnfilteredWine)
                 .onMessage(AddFilteredWine.class, this::onAddFilteredWine)
+                .onMessage(AddBottles.class, this::onAddBottles)
                 .build();
     }
 
@@ -125,6 +137,14 @@ public class Warehouse extends AbstractBehavior<Warehouse.Command> {
     }
 
     private void informBottling() {
-        //TODO: implement
+        bottling.tell(new Bottling.AddFilteredWine(producedFilteredWine));
+    }
+
+    private Behavior<Command> onAddBottles(AddBottles msg) {
+        producedBottles += msg.bottlesAmount;
+
+        getContext().getLog().info("Produced {} bottles of wine", producedBottles);
+
+        return this;
     }
 }
