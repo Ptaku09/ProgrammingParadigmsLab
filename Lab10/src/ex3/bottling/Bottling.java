@@ -75,7 +75,6 @@ public class Bottling extends AbstractBehavior<Bottling.Command> {
 
     private Behavior<Command> onAddFilteredWine(AddFilteredWine msg) {
         filteredWine += msg.filteredWineAmount;
-
         beginProcessing();
 
         return this;
@@ -99,10 +98,12 @@ public class Bottling extends AbstractBehavior<Bottling.Command> {
         getContext().getLog().info("bottling-slot-{} finished processing 🥳", msg.slotNumber);
         freeSlots.add(msg.slotNumber);
 
+        // If the processing was successful, send the wine bottles to the warehouse
         if (isSuccessful()) {
             warehouse.tell(new Warehouse.AddBottles(PRODUCED_BOTTLES));
         }
 
+        // Begin processing again
         beginProcessing();
 
         return this;

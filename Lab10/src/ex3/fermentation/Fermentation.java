@@ -130,13 +130,15 @@ public class Fermentation extends AbstractBehavior<Fermentation.Command> {
     }
 
     private Behavior<Command> onFinishedProcessing(FinishedProcessing msg) {
-        getContext().getLog().info("fermentation-slot-{} finished processing", msg.slotNumber);
+        getContext().getLog().info("fermentation-slot-{} finished processing 🥳", msg.slotNumber);
         freeSlots.add(msg.slotNumber);
 
+        // If the processing was successful, send the unfiltered wine to the warehouse
         if (isSuccessful()) {
             warehouse.tell(new Warehouse.AddUnfilteredWine(PRODUCED_UNFILTERED_WINE_L));
         }
 
+        // Begin processing again
         beginProcessing();
 
         return this;

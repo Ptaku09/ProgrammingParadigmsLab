@@ -73,7 +73,6 @@ public class Stamping extends AbstractBehavior<Stamping.Command> {
 
     private Behavior<Command> onAddGrapes(AddGrapes msg) {
         grapes += msg.amount;
-
         beginProcessing();
 
         return this;
@@ -93,10 +92,10 @@ public class Stamping extends AbstractBehavior<Stamping.Command> {
     }
 
     private Behavior<Command> onFinishedProcessing(FinishedProcessing msg) {
-        getContext().getLog().info("stamping-slot-{} finished processing", msg.slotNumber);
+        getContext().getLog().info("stamping-slot-{} finished processing 🥳", msg.slotNumber);
         freeSlots.add(msg.slotNumber);
 
-        // If the processing was successful, add the juice to the warehouse
+        // If the processing was successful, send the juice to the warehouse
         if (isSuccessful()) {
             warehouse.tell(new Warehouse.AddJuice(PRODUCED_JUICE_L));
         }

@@ -73,7 +73,6 @@ public class Filtration extends AbstractBehavior<Filtration.Command> {
 
     private Behavior<Command> onAddUnfilteredWine(AddUnfilteredWine msg) {
         unfilteredWine += msg.unfilteredWineAmount;
-
         beginProcessing();
 
         return this;
@@ -93,13 +92,15 @@ public class Filtration extends AbstractBehavior<Filtration.Command> {
     }
 
     private Behavior<Command> onFinishedProcessing(FinishedProcessing msg) {
-        getContext().getLog().info("filtration-slot-{} finished processing", msg.slotNumber);
+        getContext().getLog().info("filtration-slot-{} finished processing 🥳", msg.slotNumber);
         freeSlots.add(msg.slotNumber);
 
+        // If the processing was successful, send the filtered wine to the warehouse
         if (isSuccessful()) {
             warehouse.tell(new Warehouse.AddFilteredWine(PRODUCED_FILTERED_WINE_L));
         }
 
+        // Begin processing again
         beginProcessing();
 
         return this;
