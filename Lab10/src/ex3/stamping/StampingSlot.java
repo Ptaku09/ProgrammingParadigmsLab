@@ -44,7 +44,7 @@ public class StampingSlot extends AbstractBehavior<StampingSlot.Command> {
     }
 
     private Behavior<Command> onBeginProcessing(BeginProcessing command) {
-        getContext().getLog().info("stamping-slot-{} processing", slotNumber);
+        getContext().getLog().info("⚙️️️️️⚙️️️️️⚙️️️️️ stamping-slot-{} processing ⚙️️️️️⚙️️️️️⚙️️️️️", slotNumber);
         getContext().scheduleOnce(duration, command.replyTo, new Stamping.FinishedProcessing(slotNumber));
 
         return this;

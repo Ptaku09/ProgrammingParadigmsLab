@@ -44,7 +44,7 @@ public class BottlingSlot extends AbstractBehavior<BottlingSlot.Command> {
     }
 
     private Behavior<Command> onBeginProcessing(BeginProcessing command) {
-        getContext().getLog().info("filtration-slot-{} processing", slotNumber);
+        getContext().getLog().info("⚙️️️️️⚙️️️️️⚙️️️️️ filtration-slot-{} processing ⚙️️️️️⚙️️️️️⚙️️️️️", slotNumber);
         getContext().scheduleOnce(duration, command.replyTo, new Bottling.FinishedProcessing(slotNumber));
 
         return this;

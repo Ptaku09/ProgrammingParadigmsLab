@@ -13,12 +13,19 @@ import ex3.fermentation.Fermentation;
 import ex3.filtration.Filtration;
 import ex3.stamping.Stamping;
 
+import java.time.Duration;
+import java.time.Instant;
+
 public class Warehouse extends AbstractBehavior<Warehouse.Command> {
     // Acceptable commands -----------------------------------------------
     public interface Command {}
 
     public enum BeginProduction implements Command {
-        INSTANCE
+        BEGIN_INSTANCE
+    }
+
+    public enum Shutdown implements Command {
+        SHUTDOWN_INSTANCE
     }
 
     public static final class AddJuice implements Command {
@@ -53,10 +60,6 @@ public class Warehouse extends AbstractBehavior<Warehouse.Command> {
         }
     }
 
-    public enum Shutdown implements Command {
-        INSTANCE
-    }
-
     // Actor creation ---------------------------------------------------
     public static Behavior<Command> create(int grapes, int water, int sugar, int bottles) {
         return Behaviors.setup(context -> new Warehouse(context, grapes, water, sugar, bottles));
@@ -68,6 +71,8 @@ public class Warehouse extends AbstractBehavior<Warehouse.Command> {
     private final ActorRef<Filtration.Command> filtration;
     private final ActorRef<Bottling.Command> bottling;
     private final int grapes;
+    private Instant startTime;
+    private Instant endTime;
     private int producedJuice = 0;
     private int producedUnfilteredWine = 0;
     private int producedFilteredWine = 0;
@@ -97,12 +102,13 @@ public class Warehouse extends AbstractBehavior<Warehouse.Command> {
                 .onMessage(AddUnfilteredWine.class, this::onAddUnfilteredWine)
                 .onMessage(AddFilteredWine.class, this::onAddFilteredWine)
                 .onMessage(AddBottles.class, this::onAddBottles)
-                .onMessage(Shutdown.class, shutdown -> Behaviors.stopped())
+                .onMessage(Shutdown.class, shutdown -> onShutdown())
                 .onSignal(Terminated.class, this::onTerminated)
                 .build();
     }
 
     private Behavior<Command> onBeginProduction(BeginProduction msg) {
+        startTime = Instant.now();
         informStamping();
 
         return this;
@@ -147,9 +153,22 @@ public class Warehouse extends AbstractBehavior<Warehouse.Command> {
 
     private Behavior<Command> onAddBottles(AddBottles msg) {
         producedBottles += msg.bottlesAmount;
-        getContext().getLog().info("Produced {} bottles of wine", producedBottles);
+        getContext().getLog().info("🍾🍾🍾 New bottle added 🍾🍾🍾");
 
         return this;
+    }
+
+    private Behavior<Command> onShutdown() {
+        endTime = Instant.now();
+        generateReport();
+
+        return Behaviors.stopped();
+    }
+
+    private void generateReport() {
+        getContext().getLog().info("🏁🏁🏁 Production ended 🏁🏁🏁");
+        getContext().getLog().info("🕐🕐🕐 Production time: {}s 🕐🕐🕐", Duration.between(startTime, endTime).toSeconds());
+        getContext().getLog().info("🍷🍷🍷 Produced {} bottles of wine 🍷🍷🍷", producedBottles);
     }
 
     private Behavior<Command> onTerminated(Terminated msg) {
@@ -160,7 +179,7 @@ public class Warehouse extends AbstractBehavior<Warehouse.Command> {
 
 class WarehouseTest {
     public static void main(String[] args) {
-        final ActorSystem<Warehouse.Command> system = ActorSystem.create(Warehouse.create(0, 0, 0, 0), "warehouse");
-        system.tell(Warehouse.BeginProduction.INSTANCE);
+        final ActorSystem<Warehouse.Command> system = ActorSystem.create(Warehouse.create(100, 100, 100, 100), "warehouse");
+        system.tell(Warehouse.BeginProduction.BEGIN_INSTANCE);
     }
 }

@@ -48,7 +48,7 @@ public class Stamping extends AbstractBehavior<Stamping.Command> {
     private static final int PRODUCED_JUICE_L = 10;
     private static final int FAILURE_RATE = 0;
     private static final int PROCESSING_TIME_MINUTES = 720;
-    private static final int SLOTS = 10;
+    private static final int SLOTS = 1;
     private final ActorRef<Warehouse.Command> warehouse;
     private final Map<Integer, ActorRef<StampingSlot.Command>> slots = new HashMap<>();
     private final Queue<Integer> freeSlots = new LinkedList<>();
@@ -101,7 +101,7 @@ public class Stamping extends AbstractBehavior<Stamping.Command> {
     }
 
     private Behavior<Command> onFinishedProcessing(FinishedProcessing msg) {
-        getContext().getLog().info("stamping-slot-{} finished processing 🥳", msg.slotNumber);
+        getContext().getLog().info("🥳🥳🥳 stamping-slot-{} finished processing 🥳🥳🥳", msg.slotNumber);
         freeSlots.add(msg.slotNumber);
 
         // If the processing was successful, send the juice to the warehouse
@@ -117,13 +117,13 @@ public class Stamping extends AbstractBehavior<Stamping.Command> {
 
     private boolean isSuccessful() {
         if (Math.random() < FAILURE_RATE) {
-            getContext().getLog().info("Stamping failed ❌");
+            getContext().getLog().info("❌❌❌ Stamping failed ❌❌❌");
 
             return false;
         } else {
-            getContext().getLog().info("Stamping successful ✅");
-            getContext().getLog().info("Produced {}L of juice", PRODUCED_JUICE_L);
-            getContext().getLog().info("Sending resources to fermentation");
+            getContext().getLog().info("✅✅✅ Stamping successful ✅✅✅");
+            getContext().getLog().info("🧃🧃🧃 Produced {}L of juice 🧃🧃🧃", PRODUCED_JUICE_L);
+            getContext().getLog().info("📦📦📦 Sending resources to fermentation 📦📦📦");
 
             return true;
         }

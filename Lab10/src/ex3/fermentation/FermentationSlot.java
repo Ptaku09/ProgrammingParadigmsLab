@@ -44,7 +44,7 @@ public class FermentationSlot extends AbstractBehavior<FermentationSlot.Command>
     }
 
     private Behavior<Command> onBeginProcessing(BeginProcessing command) {
-        getContext().getLog().info("fermentation-slot-{} processing", slotNumber);
+        getContext().getLog().info("⚙️️️️️⚙️️️️️⚙️️️️️ fermentation-slot-{} processing ⚙️️️️️⚙️️️️️⚙️️️️️", slotNumber);
         getContext().scheduleOnce(duration, command.replyTo, new Fermentation.FinishedProcessing(slotNumber));
 
         return this;

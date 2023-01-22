@@ -109,13 +109,13 @@ public class Bottling extends AbstractBehavior<Bottling.Command> {
 
     private void checkTermination() {
         if (freeSlots.size() == SLOTS && !willNewResourcesCome) {
-            warehouse.tell(Warehouse.Shutdown.INSTANCE);
             getContext().getSelf().tell(Shutdown.INSTANCE);
+            warehouse.tell(Warehouse.Shutdown.SHUTDOWN_INSTANCE);
         }
     }
 
     private Behavior<Command> onFinishedProcessing(FinishedProcessing msg) {
-        getContext().getLog().info("bottling-slot-{} finished processing 🥳", msg.slotNumber);
+        getContext().getLog().info("🥳🥳🥳 bottling-slot-{} finished processing 🥳🥳🥳", msg.slotNumber);
         freeSlots.add(msg.slotNumber);
 
         // If the processing was successful, send the wine bottles to the warehouse
@@ -131,13 +131,13 @@ public class Bottling extends AbstractBehavior<Bottling.Command> {
 
     private boolean isSuccessful() {
         if (Math.random() * 100 < FAILURE_RATE_PERCENT) {
-            getContext().getLog().info("Bottling failed ❌");
+            getContext().getLog().info("❌❌❌ Bottling failed ❌❌❌");
 
             return false;
         } else {
-            getContext().getLog().info("Bottling successful ✅");
-            getContext().getLog().info("Bottles produced: {}", PRODUCED_BOTTLES);
-            getContext().getLog().info("Sending resources to warehouse");
+            getContext().getLog().info("✅✅✅ Bottling successful ✅✅✅");
+            getContext().getLog().info("🍾🍾🍾 Bottles produced: {} 🍾🍾🍾", PRODUCED_BOTTLES);
+            getContext().getLog().info("📦📦📦 Sending resources to warehouse 📦📦📦");
 
             return true;
         }

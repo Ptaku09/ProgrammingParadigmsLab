@@ -1,0 +1,2149 @@
+sty 22, 2023 3:37:33 PM NA/SubstituteLogger NA/SubstituteLogger
+INFO: Slf4jLogger started
+SLF4J: A number (1) of logging calls during the initialization phase have been intercepted and are
+SLF4J: now being replayed. These are subject to the filtering rules of the underlying logging system.
+SLF4J: See also http://www.slf4j.org/codes.html#replay
+sty 22, 2023 3:37:34 PM ex3.stamping.StampingSlot onBeginProcessing
+INFO: stamping-slot-0 processing
+sty 22, 2023 3:37:41 PM ex3.stamping.Stamping onFinishedProcessing
+INFO: 🥳🥳🥳 stamping-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:37:41 PM ex3.stamping.Stamping isSuccessful
+INFO: ✅✅✅ Stamping successful ✅✅✅
+sty 22, 2023 3:37:41 PM ex3.stamping.Stamping isSuccessful
+INFO: 🧃🧃🧃 Produced 10L of juice 🧃🧃🧃
+sty 22, 2023 3:37:41 PM ex3.stamping.Stamping isSuccessful
+INFO: 📦📦📦 Sending resources to fermentation 📦📦📦
+sty 22, 2023 3:37:41 PM ex3.stamping.StampingSlot onBeginProcessing
+INFO: stamping-slot-0 processing
+sty 22, 2023 3:37:48 PM ex3.stamping.Stamping onFinishedProcessing
+INFO: 🥳🥳🥳 stamping-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:37:48 PM ex3.stamping.Stamping isSuccessful
+INFO: ✅✅✅ Stamping successful ✅✅✅
+sty 22, 2023 3:37:48 PM ex3.stamping.Stamping isSuccessful
+INFO: 🧃🧃🧃 Produced 10L of juice 🧃🧃🧃
+sty 22, 2023 3:37:48 PM ex3.stamping.Stamping isSuccessful
+INFO: 📦📦📦 Sending resources to fermentation 📦📦📦
+sty 22, 2023 3:37:48 PM ex3.stamping.StampingSlot onBeginProcessing
+INFO: stamping-slot-0 processing
+sty 22, 2023 3:37:48 PM ex3.fermentation.FermentationSlot onBeginProcessing
+INFO: fermentation-slot-0 processing
+sty 22, 2023 3:37:48 PM ex3.fermentation.FermentationSlot onBeginProcessing
+INFO: fermentation-slot-1 processing
+sty 22, 2023 3:37:55 PM ex3.stamping.Stamping onFinishedProcessing
+INFO: 🥳🥳🥳 stamping-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:37:55 PM ex3.stamping.Stamping isSuccessful
+INFO: ✅✅✅ Stamping successful ✅✅✅
+sty 22, 2023 3:37:55 PM ex3.stamping.Stamping isSuccessful
+INFO: 🧃🧃🧃 Produced 10L of juice 🧃🧃🧃
+sty 22, 2023 3:37:55 PM ex3.stamping.Stamping isSuccessful
+INFO: 📦📦📦 Sending resources to fermentation 📦📦📦
+sty 22, 2023 3:37:55 PM ex3.stamping.StampingSlot onBeginProcessing
+INFO: stamping-slot-0 processing
+sty 22, 2023 3:37:55 PM ex3.fermentation.FermentationSlot onBeginProcessing
+INFO: fermentation-slot-2 processing
+sty 22, 2023 3:37:55 PM ex3.fermentation.FermentationSlot onBeginProcessing
+INFO: fermentation-slot-3 processing
+sty 22, 2023 3:38:02 PM ex3.stamping.Stamping onFinishedProcessing
+INFO: 🥳🥳🥳 stamping-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:38:02 PM ex3.stamping.Stamping isSuccessful
+INFO: ✅✅✅ Stamping successful ✅✅✅
+sty 22, 2023 3:38:02 PM ex3.stamping.Stamping isSuccessful
+INFO: 🧃🧃🧃 Produced 10L of juice 🧃🧃🧃
+sty 22, 2023 3:38:02 PM ex3.stamping.Stamping isSuccessful
+INFO: 📦📦📦 Sending resources to fermentation 📦📦📦
+sty 22, 2023 3:38:02 PM ex3.stamping.StampingSlot onBeginProcessing
+INFO: stamping-slot-0 processing
+sty 22, 2023 3:38:02 PM ex3.fermentation.FermentationSlot onBeginProcessing
+INFO: fermentation-slot-5 processing
+sty 22, 2023 3:38:02 PM ex3.fermentation.FermentationSlot onBeginProcessing
+INFO: fermentation-slot-4 processing
+sty 22, 2023 3:38:10 PM ex3.stamping.Stamping onFinishedProcessing
+INFO: 🥳🥳🥳 stamping-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:38:10 PM ex3.stamping.Stamping isSuccessful
+INFO: ✅✅✅ Stamping successful ✅✅✅
+sty 22, 2023 3:38:10 PM ex3.stamping.Stamping isSuccessful
+INFO: 🧃🧃🧃 Produced 10L of juice 🧃🧃🧃
+sty 22, 2023 3:38:10 PM ex3.stamping.Stamping isSuccessful
+INFO: 📦📦📦 Sending resources to fermentation 📦📦📦
+sty 22, 2023 3:38:10 PM ex3.stamping.StampingSlot onBeginProcessing
+INFO: stamping-slot-0 processing
+sty 22, 2023 3:38:10 PM ex3.fermentation.FermentationSlot onBeginProcessing
+INFO: fermentation-slot-7 processing
+sty 22, 2023 3:38:10 PM ex3.fermentation.FermentationSlot onBeginProcessing
+INFO: fermentation-slot-6 processing
+sty 22, 2023 3:38:10 PM ex3.fermentation.FermentationSlot onBeginProcessing
+INFO: fermentation-slot-9 processing
+sty 22, 2023 3:38:10 PM ex3.fermentation.FermentationSlot onBeginProcessing
+INFO: fermentation-slot-8 processing
+sty 22, 2023 3:38:17 PM ex3.stamping.Stamping onFinishedProcessing
+INFO: 🥳🥳🥳 stamping-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:38:17 PM ex3.stamping.Stamping isSuccessful
+INFO: ✅✅✅ Stamping successful ✅✅✅
+sty 22, 2023 3:38:17 PM ex3.stamping.Stamping isSuccessful
+INFO: 🧃🧃🧃 Produced 10L of juice 🧃🧃🧃
+sty 22, 2023 3:38:17 PM ex3.stamping.Stamping isSuccessful
+INFO: 📦📦📦 Sending resources to fermentation 📦📦📦
+sty 22, 2023 3:38:17 PM ex3.Warehouse onTerminated
+INFO: ❌❌❌ Terminated stamping ❌❌❌
+sty 22, 2023 3:41:10 PM ex3.fermentation.Fermentation onFinishedProcessing
+INFO: 🥳🥳🥳 fermentation-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:10 PM ex3.fermentation.Fermentation isSuccessful
+INFO: ✅✅✅ Fermentation successful ✅✅✅
+sty 22, 2023 3:41:10 PM ex3.fermentation.Fermentation isSuccessful
+INFO: 🍷🍷🍷 Produced 25L of unfiltered wine 🍷🍷🍷
+sty 22, 2023 3:41:10 PM ex3.fermentation.Fermentation isSuccessful
+INFO: 📦📦📦 Sending resources to filtration 📦📦📦
+sty 22, 2023 3:41:10 PM ex3.fermentation.Fermentation onFinishedProcessing
+INFO: 🥳🥳🥳 fermentation-slot-1 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:10 PM ex3.fermentation.Fermentation isSuccessful
+INFO: ✅✅✅ Fermentation successful ✅✅✅
+sty 22, 2023 3:41:10 PM ex3.fermentation.Fermentation isSuccessful
+INFO: 🍷🍷🍷 Produced 25L of unfiltered wine 🍷🍷🍷
+sty 22, 2023 3:41:10 PM ex3.fermentation.Fermentation isSuccessful
+INFO: 📦📦📦 Sending resources to filtration 📦📦📦
+sty 22, 2023 3:41:10 PM ex3.fermentation.FermentationSlot onBeginProcessing
+INFO: fermentation-slot-0 processing
+sty 22, 2023 3:41:10 PM ex3.fermentation.FermentationSlot onBeginProcessing
+INFO: fermentation-slot-1 processing
+sty 22, 2023 3:41:10 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:10 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-2 processing
+sty 22, 2023 3:41:10 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-1 processing
+sty 22, 2023 3:41:17 PM ex3.fermentation.Fermentation onFinishedProcessing
+INFO: 🥳🥳🥳 fermentation-slot-3 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:17 PM ex3.fermentation.Fermentation isSuccessful
+INFO: ✅✅✅ Fermentation successful ✅✅✅
+sty 22, 2023 3:41:17 PM ex3.fermentation.Fermentation isSuccessful
+INFO: 🍷🍷🍷 Produced 25L of unfiltered wine 🍷🍷🍷
+sty 22, 2023 3:41:17 PM ex3.fermentation.Fermentation isSuccessful
+INFO: 📦📦📦 Sending resources to filtration 📦📦📦
+sty 22, 2023 3:41:17 PM ex3.fermentation.Fermentation onFinishedProcessing
+INFO: 🥳🥳🥳 fermentation-slot-2 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:17 PM ex3.fermentation.Fermentation isSuccessful
+INFO: ✅✅✅ Fermentation successful ✅✅✅
+sty 22, 2023 3:41:17 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-5 processing
+sty 22, 2023 3:41:17 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-4 processing
+sty 22, 2023 3:41:17 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-3 processing
+sty 22, 2023 3:41:17 PM ex3.fermentation.Fermentation isSuccessful
+INFO: 🍷🍷🍷 Produced 25L of unfiltered wine 🍷🍷🍷
+sty 22, 2023 3:41:17 PM ex3.fermentation.Fermentation isSuccessful
+INFO: 📦📦📦 Sending resources to filtration 📦📦📦
+sty 22, 2023 3:41:17 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-6 processing
+sty 22, 2023 3:41:17 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-8 processing
+sty 22, 2023 3:41:17 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-9 processing
+sty 22, 2023 3:41:17 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-7 processing
+sty 22, 2023 3:41:17 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:17 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:17 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:17 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:17 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-2 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:17 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:17 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:17 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:17 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-1 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:17 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:17 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:17 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:17 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:17 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:17 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:17 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:17 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:17 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:17 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:17 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:17 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:17 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:17 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:17 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:17 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:17 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:17 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:17 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:17 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:17 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:17 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:17 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:17 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:17 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:17 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:17 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:17 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:17 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:17 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:17 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:17 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:17 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:17 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:17 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:17 PM ex3.bottling.Bottling isSuccessful
+INFO: ❌❌❌ Bottling failed ❌❌❌
+sty 22, 2023 3:41:17 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:17 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:17 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:17 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:17 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:17 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:17 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:17 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:17 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:17 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:17 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:17 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:17 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:17 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:17 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:17 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:17 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:17 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:17 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:18 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:18 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:18 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:18 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:18 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:18 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:18 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:18 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:18 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:18 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:18 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:18 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:18 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:18 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:18 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:18 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:18 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:18 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:18 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:18 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:18 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:18 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:18 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:18 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:18 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:18 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:18 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:18 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:18 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:18 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:18 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:19 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:19 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:19 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:19 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:19 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:19 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:19 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:19 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:19 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:19 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:19 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:19 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:19 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:19 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:19 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:19 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:19 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:19 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:19 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:19 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:19 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:19 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:19 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:19 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:19 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:19 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:19 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:19 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:19 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:20 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:20 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:20 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:20 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:20 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:20 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling isSuccessful
+INFO: ❌❌❌ Bottling failed ❌❌❌
+sty 22, 2023 3:41:20 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:20 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:20 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:20 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:20 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:20 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:20 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:20 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:20 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:20 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:20 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:20 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:20 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:20 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:20 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:20 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:20 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:20 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:20 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:20 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:20 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:20 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:21 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:21 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:21 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:21 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:21 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:21 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:21 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:21 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:21 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:21 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:21 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:21 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:21 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:21 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:21 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:21 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:21 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:21 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:21 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:21 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:21 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:21 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:21 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:21 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:21 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:21 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:21 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:21 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:21 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:21 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:21 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:22 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:22 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling isSuccessful
+INFO: ❌❌❌ Bottling failed ❌❌❌
+sty 22, 2023 3:41:22 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:22 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:22 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:22 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:22 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:22 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:22 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:22 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:22 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:22 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:22 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:22 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:22 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:22 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:22 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:22 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:22 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:22 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:22 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling isSuccessful
+INFO: ❌❌❌ Bottling failed ❌❌❌
+sty 22, 2023 3:41:22 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:22 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:22 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:22 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:22 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:22 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:23 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:23 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:23 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:23 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:23 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:23 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:23 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:23 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:23 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:23 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:23 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:23 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:23 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:23 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:23 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:23 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:23 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:23 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:23 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:23 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:23 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:23 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:23 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:23 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:23 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:23 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:23 PM ex3.bottling.Bottling isSuccessful
+INFO: ❌❌❌ Bottling failed ❌❌❌
+sty 22, 2023 3:41:23 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:24 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:24 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:24 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:24 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:24 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:24 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:24 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:24 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:24 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:24 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:24 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:24 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:24 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:24 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:24 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:24 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:24 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:24 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:24 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:24 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:24 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:24 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:24 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:24 PM ex3.bottling.BottlingSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:24 PM ex3.bottling.Bottling onFinishedProcessing
+INFO: 🥳🥳🥳 bottling-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:24 PM ex3.bottling.Bottling isSuccessful
+INFO: ✅✅✅ Bottling successful ✅✅✅
+sty 22, 2023 3:41:24 PM ex3.bottling.Bottling isSuccessful
+INFO: 🍾🍾🍾 Bottles produced: 1 🍾🍾🍾
+sty 22, 2023 3:41:24 PM ex3.bottling.Bottling isSuccessful
+INFO: 📦📦📦 Sending resources to warehouse 📦📦📦
+sty 22, 2023 3:41:24 PM ex3.Warehouse onAddBottles
+INFO: 🍾🍾🍾 New bottle added 🍾🍾🍾
+sty 22, 2023 3:41:24 PM ex3.fermentation.Fermentation onFinishedProcessing
+INFO: 🥳🥳🥳 fermentation-slot-5 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:24 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-4 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:24 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:24 PM ex3.fermentation.Fermentation isSuccessful
+INFO: ✅✅✅ Fermentation successful ✅✅✅
+sty 22, 2023 3:41:24 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:24 PM ex3.fermentation.Fermentation isSuccessful
+INFO: 🍷🍷🍷 Produced 25L of unfiltered wine 🍷🍷🍷
+sty 22, 2023 3:41:24 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:24 PM ex3.fermentation.Fermentation isSuccessful
+INFO: 📦📦📦 Sending resources to filtration 📦📦📦
+sty 22, 2023 3:41:24 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-5 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:24 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:24 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:24 PM ex3.fermentation.Fermentation onFinishedProcessing
+INFO: 🥳🥳🥳 fermentation-slot-4 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:24 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:24 PM ex3.fermentation.Fermentation isSuccessful
+INFO: ✅✅✅ Fermentation successful ✅✅✅
+sty 22, 2023 3:41:24 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-3 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:24 PM ex3.fermentation.Fermentation isSuccessful
+INFO: 🍷🍷🍷 Produced 25L of unfiltered wine 🍷🍷🍷
+sty 22, 2023 3:41:24 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:24 PM ex3.fermentation.Fermentation isSuccessful
+INFO: 📦📦📦 Sending resources to filtration 📦📦📦
+sty 22, 2023 3:41:24 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:24 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:24 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-9 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:24 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:24 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:24 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:24 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-7 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:24 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:24 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:24 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:24 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-8 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:24 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:24 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:24 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:24 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-6 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:24 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:24 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:24 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:24 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-1 processing
+sty 22, 2023 3:41:24 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-2 processing
+sty 22, 2023 3:41:24 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-3 processing
+sty 22, 2023 3:41:24 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-5 processing
+sty 22, 2023 3:41:24 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-4 processing
+sty 22, 2023 3:41:24 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:24 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-6 processing
+sty 22, 2023 3:41:24 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-8 processing
+sty 22, 2023 3:41:24 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-7 processing
+sty 22, 2023 3:41:24 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-9 processing
+sty 22, 2023 3:41:31 PM ex3.fermentation.Fermentation onFinishedProcessing
+INFO: 🥳🥳🥳 fermentation-slot-7 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:31 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-1 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:31 PM ex3.fermentation.Fermentation isSuccessful
+INFO: ✅✅✅ Fermentation successful ✅✅✅
+sty 22, 2023 3:41:31 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:31 PM ex3.fermentation.Fermentation isSuccessful
+INFO: 🍷🍷🍷 Produced 25L of unfiltered wine 🍷🍷🍷
+sty 22, 2023 3:41:31 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:31 PM ex3.fermentation.Fermentation isSuccessful
+INFO: 📦📦📦 Sending resources to filtration 📦📦📦
+sty 22, 2023 3:41:31 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:31 PM ex3.fermentation.Fermentation onFinishedProcessing
+INFO: 🥳🥳🥳 fermentation-slot-6 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:31 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-2 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:31 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-1 processing
+sty 22, 2023 3:41:31 PM ex3.fermentation.Fermentation isSuccessful
+INFO: ✅✅✅ Fermentation successful ✅✅✅
+sty 22, 2023 3:41:31 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:31 PM ex3.fermentation.Fermentation isSuccessful
+INFO: 🍷🍷🍷 Produced 25L of unfiltered wine 🍷🍷🍷
+sty 22, 2023 3:41:31 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:31 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:31 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-5 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:31 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:31 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:31 PM ex3.fermentation.Fermentation isSuccessful
+INFO: 📦📦📦 Sending resources to filtration 📦📦📦
+sty 22, 2023 3:41:31 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:31 PM ex3.fermentation.Fermentation onFinishedProcessing
+INFO: 🥳🥳🥳 fermentation-slot-9 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:31 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-4 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:31 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:31 PM ex3.fermentation.Fermentation isSuccessful
+INFO: ✅✅✅ Fermentation successful ✅✅✅
+sty 22, 2023 3:41:31 PM ex3.fermentation.Fermentation isSuccessful
+INFO: 🍷🍷🍷 Produced 25L of unfiltered wine 🍷🍷🍷
+sty 22, 2023 3:41:31 PM ex3.fermentation.Fermentation isSuccessful
+INFO: 📦📦📦 Sending resources to filtration 📦📦📦
+sty 22, 2023 3:41:31 PM ex3.fermentation.Fermentation onFinishedProcessing
+INFO: 🥳🥳🥳 fermentation-slot-8 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:31 PM ex3.fermentation.Fermentation isSuccessful
+INFO: ✅✅✅ Fermentation successful ✅✅✅
+sty 22, 2023 3:41:31 PM ex3.fermentation.Fermentation isSuccessful
+INFO: 🍷🍷🍷 Produced 25L of unfiltered wine 🍷🍷🍷
+sty 22, 2023 3:41:31 PM ex3.fermentation.Fermentation isSuccessful
+INFO: 📦📦📦 Sending resources to filtration 📦📦📦
+sty 22, 2023 3:41:31 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:31 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:31 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-3 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:31 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:31 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:31 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:31 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:31 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:31 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:31 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:31 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-6 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:31 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:31 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:31 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:31 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-8 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:31 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:31 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:31 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:31 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-7 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:31 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:31 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:31 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:31 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-9 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:31 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:31 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:31 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:31 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-5 processing
+sty 22, 2023 3:41:31 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-4 processing
+sty 22, 2023 3:41:31 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:31 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-2 processing
+sty 22, 2023 3:41:31 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-3 processing
+sty 22, 2023 3:41:31 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-9 processing
+sty 22, 2023 3:41:31 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-7 processing
+sty 22, 2023 3:41:31 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-8 processing
+sty 22, 2023 3:41:31 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-6 processing
+sty 22, 2023 3:41:38 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-1 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:38 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:38 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:38 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:38 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-5 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:38 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-1 processing
+sty 22, 2023 3:41:38 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:38 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:38 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:38 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-4 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:38 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-5 processing
+sty 22, 2023 3:41:38 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:38 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:38 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:38 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:38 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:38 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:38 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:38 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-4 processing
+sty 22, 2023 3:41:38 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-2 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:38 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:38 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:38 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:38 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:38 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-2 processing
+sty 22, 2023 3:41:38 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-3 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:38 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:38 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:38 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:38 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-9 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:38 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-3 processing
+sty 22, 2023 3:41:38 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:38 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:38 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:38 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-7 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:38 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-9 processing
+sty 22, 2023 3:41:38 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:38 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:38 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:38 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-8 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:38 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-7 processing
+sty 22, 2023 3:41:38 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:38 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:38 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:38 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-6 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:38 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-8 processing
+sty 22, 2023 3:41:38 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:38 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:38 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:38 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-6 processing
+sty 22, 2023 3:41:46 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-1 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:46 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:46 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:46 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:46 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-4 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:46 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-1 processing
+sty 22, 2023 3:41:46 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:46 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:46 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:46 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:46 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-4 processing
+sty 22, 2023 3:41:46 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:46 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:46 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:46 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-5 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:46 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:46 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:46 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:46 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:46 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-2 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:46 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-5 processing
+sty 22, 2023 3:41:46 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:46 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:46 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:46 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-2 processing
+sty 22, 2023 3:41:46 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-3 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:46 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:46 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:46 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:46 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-9 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:46 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:46 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:46 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:46 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-8 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:46 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:46 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:46 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:46 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-6 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:46 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:46 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:46 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:46 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-7 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:46 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:46 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:46 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:46 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-3 processing
+sty 22, 2023 3:41:46 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-9 processing
+sty 22, 2023 3:41:46 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-8 processing
+sty 22, 2023 3:41:46 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-7 processing
+sty 22, 2023 3:41:46 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-6 processing
+sty 22, 2023 3:41:53 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-1 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:53 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:53 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:53 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:53 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-4 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:53 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:53 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:53 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-1 processing
+sty 22, 2023 3:41:53 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:53 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-4 processing
+sty 22, 2023 3:41:53 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:53 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:53 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:53 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:53 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-5 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:53 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:41:53 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:53 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:53 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:53 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-2 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:53 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-5 processing
+sty 22, 2023 3:41:53 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:53 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:53 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:53 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-2 processing
+sty 22, 2023 3:41:53 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-3 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:53 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:53 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:53 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:53 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-9 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:53 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:53 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:53 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:53 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-8 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:53 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:53 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:53 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:53 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-7 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:53 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:53 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:53 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:41:53 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-6 finished processing 🥳🥳🥳
+sty 22, 2023 3:41:53 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:41:53 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:41:53 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:42:00 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-1 finished processing 🥳🥳🥳
+sty 22, 2023 3:42:00 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:42:00 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:42:00 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:42:00 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-4 finished processing 🥳🥳🥳
+sty 22, 2023 3:42:00 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:42:00 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:42:00 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:42:00 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:42:00 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:42:00 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:42:00 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:42:00 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-5 finished processing 🥳🥳🥳
+sty 22, 2023 3:42:00 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:42:00 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:42:00 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:42:00 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-2 finished processing 🥳🥳🥳
+sty 22, 2023 3:42:00 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:42:00 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:42:00 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:44:31 PM ex3.fermentation.Fermentation onFinishedProcessing
+INFO: 🥳🥳🥳 fermentation-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:44:31 PM ex3.fermentation.Fermentation isSuccessful
+INFO: ✅✅✅ Fermentation successful ✅✅✅
+sty 22, 2023 3:44:31 PM ex3.fermentation.Fermentation isSuccessful
+INFO: 🍷🍷🍷 Produced 25L of unfiltered wine 🍷🍷🍷
+sty 22, 2023 3:44:31 PM ex3.fermentation.Fermentation isSuccessful
+INFO: 📦📦📦 Sending resources to filtration 📦📦📦
+sty 22, 2023 3:44:31 PM ex3.fermentation.Fermentation onFinishedProcessing
+INFO: 🥳🥳🥳 fermentation-slot-1 finished processing 🥳🥳🥳
+sty 22, 2023 3:44:31 PM ex3.fermentation.Fermentation isSuccessful
+INFO: ✅✅✅ Fermentation successful ✅✅✅
+sty 22, 2023 3:44:31 PM ex3.fermentation.Fermentation isSuccessful
+INFO: 🍷🍷🍷 Produced 25L of unfiltered wine 🍷🍷🍷
+sty 22, 2023 3:44:31 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-3 processing
+sty 22, 2023 3:44:31 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-8 processing
+sty 22, 2023 3:44:31 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-7 processing
+sty 22, 2023 3:44:31 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-1 processing
+sty 22, 2023 3:44:31 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:44:31 PM ex3.fermentation.Fermentation isSuccessful
+INFO: 📦📦📦 Sending resources to filtration 📦📦📦
+sty 22, 2023 3:44:31 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-2 processing
+sty 22, 2023 3:44:31 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-4 processing
+sty 22, 2023 3:44:31 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-6 processing
+sty 22, 2023 3:44:31 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-9 processing
+sty 22, 2023 3:44:31 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-5 processing
+sty 22, 2023 3:44:31 PM ex3.Warehouse onTerminated
+INFO: ❌❌❌ Terminated fermentation ❌❌❌
+sty 22, 2023 3:44:38 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-3 finished processing 🥳🥳🥳
+sty 22, 2023 3:44:38 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:44:38 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:44:38 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:44:38 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-8 finished processing 🥳🥳🥳
+sty 22, 2023 3:44:38 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-3 processing
+sty 22, 2023 3:44:38 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:44:38 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:44:38 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:44:38 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-7 finished processing 🥳🥳🥳
+sty 22, 2023 3:44:38 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-8 processing
+sty 22, 2023 3:44:38 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:44:38 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:44:38 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:44:38 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-1 finished processing 🥳🥳🥳
+sty 22, 2023 3:44:38 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-7 processing
+sty 22, 2023 3:44:38 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:44:38 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:44:38 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:44:38 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:44:38 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-1 processing
+sty 22, 2023 3:44:38 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:44:38 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:44:38 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:44:38 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-0 processing
+sty 22, 2023 3:44:38 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-2 finished processing 🥳🥳🥳
+sty 22, 2023 3:44:38 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:44:38 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:44:38 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:44:38 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-4 finished processing 🥳🥳🥳
+sty 22, 2023 3:44:38 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-2 processing
+sty 22, 2023 3:44:38 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:44:38 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:44:38 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:44:38 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-6 finished processing 🥳🥳🥳
+sty 22, 2023 3:44:38 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-4 processing
+sty 22, 2023 3:44:38 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:44:38 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:44:38 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:44:38 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-5 finished processing 🥳🥳🥳
+sty 22, 2023 3:44:38 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-6 processing
+sty 22, 2023 3:44:38 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:44:38 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:44:38 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:44:38 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-5 processing
+sty 22, 2023 3:44:38 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-9 finished processing 🥳🥳🥳
+sty 22, 2023 3:44:38 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:44:38 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:44:38 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:44:38 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-9 processing
+sty 22, 2023 3:44:46 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-3 finished processing 🥳🥳🥳
+sty 22, 2023 3:44:46 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:44:46 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:44:46 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:44:46 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-8 finished processing 🥳🥳🥳
+sty 22, 2023 3:44:46 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:44:46 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:44:46 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-3 processing
+sty 22, 2023 3:44:46 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:44:46 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-7 finished processing 🥳🥳🥳
+sty 22, 2023 3:44:46 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:44:46 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:44:46 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-8 processing
+sty 22, 2023 3:44:46 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:44:46 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-1 finished processing 🥳🥳🥳
+sty 22, 2023 3:44:46 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:44:46 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:44:46 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:44:46 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-0 finished processing 🥳🥳🥳
+sty 22, 2023 3:44:46 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:44:46 PM ex3.filtration.FiltrationSlot onBeginProcessing
+INFO: filtration-slot-7 processing
+sty 22, 2023 3:44:46 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:44:46 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:44:46 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-2 finished processing 🥳🥳🥳
+sty 22, 2023 3:44:46 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:44:46 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:44:46 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:44:46 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-6 finished processing 🥳🥳🥳
+sty 22, 2023 3:44:46 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:44:46 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:44:46 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:44:46 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-5 finished processing 🥳🥳🥳
+sty 22, 2023 3:44:46 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:44:46 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:44:46 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:44:46 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-9 finished processing 🥳🥳🥳
+sty 22, 2023 3:44:46 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:44:46 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:44:46 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:44:46 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-4 finished processing 🥳🥳🥳
+sty 22, 2023 3:44:46 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:44:46 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:44:46 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:44:53 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-3 finished processing 🥳🥳🥳
+sty 22, 2023 3:44:53 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:44:53 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:44:53 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:44:53 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-8 finished processing 🥳🥳🥳
+sty 22, 2023 3:44:53 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:44:53 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:44:53 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:44:53 PM ex3.filtration.Filtration onFinishedProcessing
+INFO: 🥳🥳🥳 filtration-slot-7 finished processing 🥳🥳🥳
+sty 22, 2023 3:44:53 PM ex3.filtration.Filtration isSuccessful
+INFO: ✅✅✅ Filtration successful ✅✅✅
+sty 22, 2023 3:44:53 PM ex3.filtration.Filtration isSuccessful
+INFO: 🍷🍷🍷 Produced 24L of filtered wine 🍷🍷🍷
+sty 22, 2023 3:44:53 PM ex3.filtration.Filtration isSuccessful
+INFO: 📦📦📦 Sending resources to bottling 📦📦📦
+sty 22, 2023 3:44:53 PM ex3.Warehouse onTerminated
+INFO: ❌❌❌ Terminated filtration ❌❌❌
+sty 22, 2023 3:44:53 PM ex3.Warehouse generateReport
+INFO: 🏁🏁🏁 Production ended 🏁🏁🏁
+sty 22, 2023 3:44:53 PM ex3.Warehouse generateReport
+INFO: 🕐🕐🕐 Production time: 439s 🕐🕐🕐
+sty 22, 2023 3:44:53 PM ex3.Warehouse generateReport
+INFO: 🍷🍷🍷 Produced 95 bottles of wine 🍷🍷🍷
+sty 22, 2023 3:44:53 PM akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 $anonfun$applyOrElse$3
+INFO: Running CoordinatedShutdown with reason [ActorSystemTerminateReason]

@@ -111,7 +111,7 @@ public class Filtration extends AbstractBehavior<Filtration.Command> {
     }
 
     private Behavior<Command> onFinishedProcessing(FinishedProcessing msg) {
-        getContext().getLog().info("filtration-slot-{} finished processing 🥳", msg.slotNumber);
+        getContext().getLog().info("🥳🥳🥳 filtration-slot-{} finished processing 🥳🥳🥳", msg.slotNumber);
         freeSlots.add(msg.slotNumber);
 
         // If the processing was successful, send the filtered wine to the warehouse
@@ -127,13 +127,13 @@ public class Filtration extends AbstractBehavior<Filtration.Command> {
 
     private boolean isSuccessful() {
         if (Math.random() * 100 < FAILURE_RATE_PERCENT) {
-            getContext().getLog().info("Filtration failed ❌");
+            getContext().getLog().info("❌❌❌ Filtration failed ❌❌❌");
 
             return false;
         } else {
-            getContext().getLog().info("Filtration successful ✅");
-            getContext().getLog().info("Produced {}L of filtered wine", PRODUCED_FILTERED_WINE_L);
-            getContext().getLog().info("Sending resources to bottling");
+            getContext().getLog().info("✅✅✅ Filtration successful ✅✅✅");
+            getContext().getLog().info("🍷🍷🍷 Produced {}L of filtered wine 🍷🍷🍷", PRODUCED_FILTERED_WINE_L);
+            getContext().getLog().info("📦📦📦 Sending resources to bottling 📦📦📦");
 
             return true;
         }
