@@ -2,11 +2,13 @@ package ex3.fermentation;
 
 import akka.actor.typed.ActorRef;
 import akka.actor.typed.Behavior;
+import akka.actor.typed.Terminated;
 import akka.actor.typed.javadsl.AbstractBehavior;
 import akka.actor.typed.javadsl.ActorContext;
 import akka.actor.typed.javadsl.Behaviors;
 import akka.actor.typed.javadsl.Receive;
 import ex3.Warehouse;
+import ex3.stamping.Stamping;
 
 import java.time.Duration;
 import java.util.HashMap;
@@ -50,9 +52,13 @@ public class Fermentation extends AbstractBehavior<Fermentation.Command> {
         }
     }
 
+    public enum Shutdown implements Command {
+        INSTANCE
+    }
+
     // Actor creation ---------------------------------------------------
-    public static Behavior<Command> create(ActorRef<Warehouse.Command> warehouse, int water, int sugar) {
-        return Behaviors.setup(context -> new Fermentation(context, warehouse, water, sugar));
+    public static Behavior<Command> create(ActorRef<Warehouse.Command> warehouse, ActorRef<Stamping.Command> stamping, int water, int sugar) {
+        return Behaviors.setup(context -> new Fermentation(context, warehouse, stamping, water, sugar));
     }
 
     // Actor state ------------------------------------------------------
@@ -66,16 +72,19 @@ public class Fermentation extends AbstractBehavior<Fermentation.Command> {
     private final ActorRef<Warehouse.Command> warehouse;
     private final Map<Integer, ActorRef<FermentationSlot.Command>> slots = new HashMap<>();
     private final Queue<Integer> freeSlots = new LinkedList<>();
+    private boolean willNewResourcesCome = true;
     private int juice = 0;
     private int water;
     private int sugar;
 
     // Constructor ------------------------------------------------------
-    private Fermentation(ActorContext<Command> context, ActorRef<Warehouse.Command> warehouse, int water, int sugar) {
+    private Fermentation(ActorContext<Command> context, ActorRef<Warehouse.Command> warehouse, ActorRef<Stamping.Command> stamping, int water, int sugar) {
         super(context);
         this.warehouse = warehouse;
         this.water = water;
         this.sugar = sugar;
+
+        getContext().watch(stamping);
 
         // Create the slots
         for (int i = 0; i < SLOTS; i++) {
@@ -92,6 +101,8 @@ public class Fermentation extends AbstractBehavior<Fermentation.Command> {
                 .onMessage(AddWater.class, this::onAddWater)
                 .onMessage(AddSugar.class, this::onAddSugar)
                 .onMessage(FinishedProcessing.class, this::onFinishedProcessing)
+                .onMessage(Shutdown.class, shutdown -> Behaviors.stopped())
+                .onSignal(Terminated.class, signal -> onStampingStop())
                 .build();
     }
 
@@ -125,10 +136,18 @@ public class Fermentation extends AbstractBehavior<Fermentation.Command> {
 
             slots.get(slotNumber).tell(new FermentationSlot.BeginProcessing(getContext().getSelf()));
         }
+
+        checkTermination();
     }
 
     private boolean checkProducts() {
         return juice >= REQUIRED_JUICE_KG && water >= REQUIRED_WATER_L && sugar >= REQUIRED_SUGAR_KG;
+    }
+
+    private void checkTermination() {
+        if (freeSlots.size() == SLOTS && !willNewResourcesCome) {
+            getContext().getSelf().tell(Shutdown.INSTANCE);
+        }
     }
 
     private Behavior<Command> onFinishedProcessing(FinishedProcessing msg) {
@@ -158,5 +177,12 @@ public class Fermentation extends AbstractBehavior<Fermentation.Command> {
 
             return true;
         }
+    }
+
+    private Behavior<Command> onStampingStop() {
+        willNewResourcesCome = false;
+        checkTermination();
+
+        return this;
     }
 }

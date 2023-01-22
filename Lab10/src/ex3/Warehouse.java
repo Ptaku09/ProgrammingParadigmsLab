@@ -1,7 +1,9 @@
 package ex3;
 
 import akka.actor.typed.ActorRef;
+import akka.actor.typed.ActorSystem;
 import akka.actor.typed.Behavior;
+import akka.actor.typed.Terminated;
 import akka.actor.typed.javadsl.AbstractBehavior;
 import akka.actor.typed.javadsl.ActorContext;
 import akka.actor.typed.javadsl.Behaviors;
@@ -51,6 +53,10 @@ public class Warehouse extends AbstractBehavior<Warehouse.Command> {
         }
     }
 
+    public enum Shutdown implements Command {
+        INSTANCE
+    }
+
     // Actor creation ---------------------------------------------------
     public static Behavior<Command> create(int grapes, int water, int sugar, int bottles) {
         return Behaviors.setup(context -> new Warehouse(context, grapes, water, sugar, bottles));
@@ -61,10 +67,7 @@ public class Warehouse extends AbstractBehavior<Warehouse.Command> {
     private final ActorRef<Fermentation.Command> fermentation;
     private final ActorRef<Filtration.Command> filtration;
     private final ActorRef<Bottling.Command> bottling;
-    private int grapes;
-    private int water;
-    private int sugar;
-    private int bottles;
+    private final int grapes;
     private int producedJuice = 0;
     private int producedUnfilteredWine = 0;
     private int producedFilteredWine = 0;
@@ -75,13 +78,15 @@ public class Warehouse extends AbstractBehavior<Warehouse.Command> {
         super(context);
 
         this.grapes = grapes;
-        this.water = water;
-        this.sugar = sugar;
-        this.bottles = bottles;
         this.stamping = context.spawn(Stamping.create(getContext().getSelf()), "stamping");
-        this.fermentation = context.spawn(Fermentation.create(getContext().getSelf(), water, sugar), "fermentation");
-        this.filtration = context.spawn(Filtration.create(getContext().getSelf()), "filtration");
-        this.bottling = context.spawn(Bottling.create(getContext().getSelf(), bottles), "bottling");
+        this.fermentation = context.spawn(Fermentation.create(getContext().getSelf(), stamping, water, sugar), "fermentation");
+        this.filtration = context.spawn(Filtration.create(getContext().getSelf(), fermentation), "filtration");
+        this.bottling = context.spawn(Bottling.create(getContext().getSelf(), filtration, bottles), "bottling");
+
+        getContext().watch(stamping);
+        getContext().watch(fermentation);
+        getContext().watch(filtration);
+        getContext().watch(bottling);
     }
 
     @Override
@@ -92,6 +97,8 @@ public class Warehouse extends AbstractBehavior<Warehouse.Command> {
                 .onMessage(AddUnfilteredWine.class, this::onAddUnfilteredWine)
                 .onMessage(AddFilteredWine.class, this::onAddFilteredWine)
                 .onMessage(AddBottles.class, this::onAddBottles)
+                .onMessage(Shutdown.class, shutdown -> Behaviors.stopped())
+                .onSignal(Terminated.class, this::onTerminated)
                 .build();
     }
 
@@ -140,9 +147,20 @@ public class Warehouse extends AbstractBehavior<Warehouse.Command> {
 
     private Behavior<Command> onAddBottles(AddBottles msg) {
         producedBottles += msg.bottlesAmount;
-
         getContext().getLog().info("Produced {} bottles of wine", producedBottles);
 
         return this;
+    }
+
+    private Behavior<Command> onTerminated(Terminated msg) {
+        getContext().getLog().info("❌❌❌ Terminated {} ❌❌❌", msg.getRef().path().name());
+        return this;
+    }
+}
+
+class WarehouseTest {
+    public static void main(String[] args) {
+        final ActorSystem<Warehouse.Command> system = ActorSystem.create(Warehouse.create(0, 0, 0, 0), "warehouse");
+        system.tell(Warehouse.BeginProduction.INSTANCE);
     }
 }

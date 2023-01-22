@@ -34,6 +34,10 @@ public class Stamping extends AbstractBehavior<Stamping.Command> {
         }
     }
 
+    public enum Shutdown implements Command {
+        INSTANCE
+    }
+
     // Actor creation ---------------------------------------------------
     public static Behavior<Command> create(ActorRef<Warehouse.Command> warehouse) {
         return Behaviors.setup(context -> new Stamping(context, warehouse));
@@ -44,7 +48,7 @@ public class Stamping extends AbstractBehavior<Stamping.Command> {
     private static final int PRODUCED_JUICE_L = 10;
     private static final int FAILURE_RATE = 0;
     private static final int PROCESSING_TIME_MINUTES = 720;
-    private static final int SLOTS = 1;
+    private static final int SLOTS = 10;
     private final ActorRef<Warehouse.Command> warehouse;
     private final Map<Integer, ActorRef<StampingSlot.Command>> slots = new HashMap<>();
     private final Queue<Integer> freeSlots = new LinkedList<>();
@@ -68,6 +72,7 @@ public class Stamping extends AbstractBehavior<Stamping.Command> {
         return newReceiveBuilder()
                 .onMessage(AddGrapes.class, this::onAddGrapes)
                 .onMessage(FinishedProcessing.class, this::onFinishedProcessing)
+                .onMessage(Shutdown.class, shutdown -> Behaviors.stopped())
                 .build();
     }
 
@@ -84,6 +89,10 @@ public class Stamping extends AbstractBehavior<Stamping.Command> {
             int slotNumber = freeSlots.poll();
 
             slots.get(slotNumber).tell(new StampingSlot.BeginProcessing(getContext().getSelf()));
+        }
+
+        if (freeSlots.size() == SLOTS) {
+            getContext().getSelf().tell(Shutdown.INSTANCE);
         }
     }
 

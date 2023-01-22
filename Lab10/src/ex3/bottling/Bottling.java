@@ -2,11 +2,13 @@ package ex3.bottling;
 
 import akka.actor.typed.ActorRef;
 import akka.actor.typed.Behavior;
+import akka.actor.typed.Terminated;
 import akka.actor.typed.javadsl.AbstractBehavior;
 import akka.actor.typed.javadsl.ActorContext;
 import akka.actor.typed.javadsl.Behaviors;
 import akka.actor.typed.javadsl.Receive;
 import ex3.Warehouse;
+import ex3.filtration.Filtration;
 
 import java.time.Duration;
 import java.util.HashMap;
@@ -34,9 +36,13 @@ public class Bottling extends AbstractBehavior<Bottling.Command> {
         }
     }
 
+    public enum Shutdown implements Command {
+        INSTANCE
+    }
+
     // Actor creation ---------------------------------------------------
-    public static Behavior<Command> create(ActorRef<Warehouse.Command> warehouse, int bottles) {
-        return Behaviors.setup(context -> new Bottling(context, warehouse, bottles));
+    public static Behavior<Command> create(ActorRef<Warehouse.Command> warehouse, ActorRef<Filtration.Command> filtration, int bottles) {
+        return Behaviors.setup(context -> new Bottling(context, warehouse, filtration, bottles));
     }
 
     // Actor state ------------------------------------------------------
@@ -48,14 +54,17 @@ public class Bottling extends AbstractBehavior<Bottling.Command> {
     private final ActorRef<Warehouse.Command> warehouse;
     private final Map<Integer, ActorRef<BottlingSlot.Command>> slots = new HashMap<>();
     private final Queue<Integer> freeSlots = new LinkedList<>();
+    private boolean willNewResourcesCome = true;
     private float filteredWine = 0;
     private int bottles;
 
     // Constructor ------------------------------------------------------
-    private Bottling(ActorContext<Command> context, ActorRef<Warehouse.Command> warehouse, int bottles) {
+    private Bottling(ActorContext<Command> context, ActorRef<Warehouse.Command> warehouse, ActorRef<Filtration.Command> filtration, int bottles) {
         super(context);
         this.warehouse = warehouse;
         this.bottles = bottles;
+
+        getContext().watch(filtration);
 
         // Create the slots
         for (int i = 0; i < SLOTS; i++) {
@@ -70,6 +79,8 @@ public class Bottling extends AbstractBehavior<Bottling.Command> {
         return newReceiveBuilder()
                 .onMessage(AddFilteredWine.class, this::onAddFilteredWine)
                 .onMessage(FinishedProcessing.class, this::onFinishedProcessing)
+                .onMessage(Shutdown.class, shutdown -> Behaviors.stopped())
+                .onSignal(Terminated.class, signal -> onFiltrationStop())
                 .build();
     }
 
@@ -88,10 +99,19 @@ public class Bottling extends AbstractBehavior<Bottling.Command> {
 
             slots.get(slotNumber).tell(new BottlingSlot.BeginProcessing(getContext().getSelf()));
         }
+
+        checkTermination();
     }
 
     private boolean checkProducts() {
         return filteredWine >= REQUIRED_FILTERED_WINE_L && bottles >= PRODUCED_BOTTLES;
+    }
+
+    private void checkTermination() {
+        if (freeSlots.size() == SLOTS && !willNewResourcesCome) {
+            warehouse.tell(Warehouse.Shutdown.INSTANCE);
+            getContext().getSelf().tell(Shutdown.INSTANCE);
+        }
     }
 
     private Behavior<Command> onFinishedProcessing(FinishedProcessing msg) {
@@ -121,5 +141,12 @@ public class Bottling extends AbstractBehavior<Bottling.Command> {
 
             return true;
         }
+    }
+
+    private Behavior<Command> onFiltrationStop() {
+        willNewResourcesCome = false;
+        checkTermination();
+
+        return this;
     }
 }
