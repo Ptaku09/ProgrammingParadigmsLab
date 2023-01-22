@@ -149,11 +149,11 @@ public class Fermentation extends AbstractBehavior<Fermentation.Command> {
 
     private boolean isSuccessful() {
         if (Math.random() * 100 < FAILURE_RATE_PERCENT) {
-            getContext().getLog().info("Fermentation failed");
+            getContext().getLog().info("Fermentation failed ❌");
 
             return false;
         } else {
-            getContext().getLog().info("Fermentation successful");
+            getContext().getLog().info("Fermentation successful ✅");
             getContext().getLog().info("Produced {}L of unfiltered wine", PRODUCED_UNFILTERED_WINE_L);
             getContext().getLog().info("Sending resources to filtration");
 
