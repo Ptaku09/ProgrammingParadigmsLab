@@ -6,6 +6,7 @@ import akka.actor.typed.javadsl.AbstractBehavior;
 import akka.actor.typed.javadsl.ActorContext;
 import akka.actor.typed.javadsl.Behaviors;
 import akka.actor.typed.javadsl.Receive;
+import ex3.Warehouse;
 
 import java.time.Duration;
 import java.util.HashMap;
@@ -50,8 +51,8 @@ public class Fermentation extends AbstractBehavior<Fermentation.Command> {
     }
 
     // Actor creation ---------------------------------------------------
-    public static Behavior<Command> create() {
-        return Behaviors.setup(Fermentation::new);
+    public static Behavior<Command> create(ActorRef<Warehouse.Command> warehouse) {
+        return Behaviors.setup(context -> new Fermentation(context, warehouse));
     }
 
     // Actor state ------------------------------------------------------
@@ -62,6 +63,7 @@ public class Fermentation extends AbstractBehavior<Fermentation.Command> {
     private static final int FAILURE_RATE_PERCENT = 5;
     private static final int PROCESSING_TIME_MINUTES = 20160;
     private static final int SLOTS = 10;
+    private final ActorRef<Warehouse.Command> warehouse;
     private final Map<Integer, ActorRef<FermentationSlot.Command>> slots = new HashMap<>();
     private final Queue<Integer> freeSlots = new LinkedList<>();
     private int juice = 0;
@@ -69,8 +71,9 @@ public class Fermentation extends AbstractBehavior<Fermentation.Command> {
     private int sugar = 0;
 
     // Constructor ------------------------------------------------------
-    private Fermentation(ActorContext<Command> context) {
+    private Fermentation(ActorContext<Command> context, ActorRef<Warehouse.Command> warehouse) {
         super(context);
+        this.warehouse = warehouse;
 
         // Create the slots
         for (int i = 0; i < SLOTS; i++) {
@@ -152,7 +155,7 @@ public class Fermentation extends AbstractBehavior<Fermentation.Command> {
         } else {
             getContext().getLog().info("Fermentation successful");
             getContext().getLog().info("Produced {}L of unfiltered wine", PRODUCED_UNFILTERED_WINE_L);
-            getContext().getLog().info("Moving to filtration");
+            getContext().getLog().info("Sending resources to filtration");
 
             return true;
         }

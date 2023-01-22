@@ -6,6 +6,7 @@ import akka.actor.typed.javadsl.AbstractBehavior;
 import akka.actor.typed.javadsl.ActorContext;
 import akka.actor.typed.javadsl.Behaviors;
 import akka.actor.typed.javadsl.Receive;
+import ex3.Warehouse;
 
 import java.time.Duration;
 import java.util.HashMap;
@@ -34,8 +35,8 @@ public class Stamping extends AbstractBehavior<Stamping.Command> {
     }
 
     // Actor creation ---------------------------------------------------
-    public static Behavior<Command> create() {
-        return Behaviors.setup(Stamping::new);
+    public static Behavior<Command> create(ActorRef<Warehouse.Command> warehouse) {
+        return Behaviors.setup(context -> new Stamping(context, warehouse));
     }
 
     // Actor state ------------------------------------------------------
@@ -44,13 +45,15 @@ public class Stamping extends AbstractBehavior<Stamping.Command> {
     private static final int FAILURE_RATE = 0;
     private static final int PROCESSING_TIME_MINUTES = 720;
     private static final int SLOTS = 1;
+    private final ActorRef<Warehouse.Command> warehouse;
     private final Map<Integer, ActorRef<StampingSlot.Command>> slots = new HashMap<>();
     private final Queue<Integer> freeSlots = new LinkedList<>();
     private int grapes = 0;
 
     // Constructor ------------------------------------------------------
-    private Stamping(ActorContext<Command> context) {
+    private Stamping(ActorContext<Command> context, ActorRef<Warehouse.Command> warehouse) {
         super(context);
+        this.warehouse = warehouse;
 
         // Create the slots
         for (int i = 0; i < SLOTS; i++) {
@@ -92,13 +95,13 @@ public class Stamping extends AbstractBehavior<Stamping.Command> {
         }
     }
 
-    private Behavior<Command> onFinishedProcessing(FinishedProcessing command) {
-        getContext().getLog().info("stamping-slot-{} finished processing", command.slotNumber);
-        freeSlots.add(command.slotNumber);
+    private Behavior<Command> onFinishedProcessing(FinishedProcessing msg) {
+        getContext().getLog().info("stamping-slot-{} finished processing", msg.slotNumber);
+        freeSlots.add(msg.slotNumber);
 
+        // If the processing was successful, add the juice to the warehouse
         if (isSuccessful()) {
-            // Tell fermentation to begin
-            // * HERE *
+            warehouse.tell(new Warehouse.AddJuice(PRODUCED_JUICE_L));
         }
 
         // Check if something is left to begin processing again
@@ -115,7 +118,7 @@ public class Stamping extends AbstractBehavior<Stamping.Command> {
         } else {
             getContext().getLog().info("Stamping successful");
             getContext().getLog().info("Produced {}L of juice", PRODUCED_JUICE_L);
-            getContext().getLog().info("Moving to fermentation");
+            getContext().getLog().info("Sending resources to fermentation");
 
             return true;
         }
