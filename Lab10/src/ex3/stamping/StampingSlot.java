@@ -1,4 +1,4 @@
-package ex3;
+package ex3.stamping;
 
 import akka.actor.typed.ActorRef;
 import akka.actor.typed.Behavior;
@@ -19,13 +19,6 @@ public class StampingSlot extends AbstractBehavior<StampingSlot.Command> {
         public BeginProcessing(ActorRef<Stamping.Command> replyTo) {
             this.replyTo = replyTo;
         }
-    }
-
-    // Internal commands -----------------------------------------------
-    private static final Object TIMER_KEY = new Object();
-
-    private enum Timeout implements Command {
-        INSTANCE
     }
 
     // Actor creation ---------------------------------------------------

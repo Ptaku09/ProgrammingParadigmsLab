@@ -1,4 +1,4 @@
-package ex3;
+package ex3.stamping;
 
 import akka.actor.typed.ActorRef;
 import akka.actor.typed.Behavior;
@@ -70,27 +70,15 @@ public class Stamping extends AbstractBehavior<Stamping.Command> {
 
     private Behavior<Command> onAddGrapes(AddGrapes msg) {
         grapes += msg.amount;
-
-        if (grapes >= REQUIRED_GRAPES_KG) {
-            beginProcessing();
-        }
+        checkProducts();
 
         return this;
     }
 
-    private Behavior<Command> onFinishedProcessing(FinishedProcessing command) {
-        getContext().getLog().info("stamping-slot-{} finished processing", command.slotNumber);
-        freeSlots.add(command.slotNumber);
-
-        // Tell fermentation to begin
-        // * HERE *
-
-        // If there are grapes left, begin processing again
+    private void checkProducts() {
         if (grapes >= REQUIRED_GRAPES_KG) {
             beginProcessing();
         }
-
-        return this;
     }
 
     private void beginProcessing() {
@@ -103,4 +91,34 @@ public class Stamping extends AbstractBehavior<Stamping.Command> {
             getContext().getLog().info("Stamping - no free slots");
         }
     }
+
+    private Behavior<Command> onFinishedProcessing(FinishedProcessing command) {
+        getContext().getLog().info("stamping-slot-{} finished processing", command.slotNumber);
+        freeSlots.add(command.slotNumber);
+
+        if (isSuccessful()) {
+            // Tell fermentation to begin
+            // * HERE *
+        }
+
+        // Check if something is left to begin processing again
+        checkProducts();
+
+        return this;
+    }
+
+    private boolean isSuccessful() {
+        if (Math.random() < FAILURE_RATE) {
+            getContext().getLog().info("Stamping failed");
+
+            return false;
+        } else {
+            getContext().getLog().info("Stamping successful");
+            getContext().getLog().info("Produced {}L of juice", PRODUCED_JUICE_L);
+            getContext().getLog().info("Moving to fermentation");
+
+            return true;
+        }
+    }
+
 }
