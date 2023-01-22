@@ -79,7 +79,7 @@ public class Warehouse extends AbstractBehavior<Warehouse.Command> {
         this.sugar = sugar;
         this.bottles = bottles;
         this.stamping = context.spawn(Stamping.create(getContext().getSelf()), "stamping");
-        this.fermentation = context.spawn(Fermentation.create(getContext().getSelf()), "fermentation");
+        this.fermentation = context.spawn(Fermentation.create(getContext().getSelf(), water, sugar), "fermentation");
         this.filtration = context.spawn(Filtration.create(getContext().getSelf()), "filtration");
         this.bottling = context.spawn(Bottling.create(getContext().getSelf(), bottles), "bottling");
     }
@@ -114,8 +114,6 @@ public class Warehouse extends AbstractBehavior<Warehouse.Command> {
 
     private void informFermentation() {
         fermentation.tell(new Fermentation.AddJuice(producedJuice));
-        fermentation.tell(new Fermentation.AddWater(water));
-        fermentation.tell(new Fermentation.AddSugar(sugar));
     }
 
     private Behavior<Command> onAddUnfilteredWine(AddUnfilteredWine msg) {

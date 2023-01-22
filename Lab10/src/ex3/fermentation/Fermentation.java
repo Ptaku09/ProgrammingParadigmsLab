@@ -51,8 +51,8 @@ public class Fermentation extends AbstractBehavior<Fermentation.Command> {
     }
 
     // Actor creation ---------------------------------------------------
-    public static Behavior<Command> create(ActorRef<Warehouse.Command> warehouse) {
-        return Behaviors.setup(context -> new Fermentation(context, warehouse));
+    public static Behavior<Command> create(ActorRef<Warehouse.Command> warehouse, int water, int sugar) {
+        return Behaviors.setup(context -> new Fermentation(context, warehouse, water, sugar));
     }
 
     // Actor state ------------------------------------------------------
@@ -67,13 +67,15 @@ public class Fermentation extends AbstractBehavior<Fermentation.Command> {
     private final Map<Integer, ActorRef<FermentationSlot.Command>> slots = new HashMap<>();
     private final Queue<Integer> freeSlots = new LinkedList<>();
     private int juice = 0;
-    private int water = 0;
-    private int sugar = 0;
+    private int water;
+    private int sugar;
 
     // Constructor ------------------------------------------------------
-    private Fermentation(ActorContext<Command> context, ActorRef<Warehouse.Command> warehouse) {
+    private Fermentation(ActorContext<Command> context, ActorRef<Warehouse.Command> warehouse, int water, int sugar) {
         super(context);
         this.warehouse = warehouse;
+        this.water = water;
+        this.sugar = sugar;
 
         // Create the slots
         for (int i = 0; i < SLOTS; i++) {
