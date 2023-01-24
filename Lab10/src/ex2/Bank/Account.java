@@ -14,24 +14,24 @@ public class Account {
         this.balance = balance;
     }
 
-    public void deposit(float amount) {
+    public synchronized void deposit(float amount) {
         this.balance += amount;
         this.deposits++;
     }
 
-    public void transferDeposit(float amount) {
+    public synchronized void transferDeposit(float amount) {
         this.balance += amount;
         this.transfers++;
     }
 
-    public void withdraw(float amount) {
+    public synchronized void withdraw(float amount) {
         if (this.balance >= amount) {
             this.balance -= amount;
             this.withdrawals++;
         }
     }
 
-    public void transfer(Account account, float amount) {
+    public synchronized void transfer(Account account, float amount) {
         if (this.balance >= amount) {
             this.balance -= amount;
             account.transferDeposit(amount);

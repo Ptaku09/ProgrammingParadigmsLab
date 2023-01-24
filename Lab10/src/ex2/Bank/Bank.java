@@ -3,34 +3,35 @@ package ex2.Bank;
 import org.apache.commons.lang3.RandomStringUtils;
 
 import java.util.*;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
 public class Bank {
+    private static final int MIN_OPERATION_INTERVAL_TIME = 100;
+    private static final int MAX_OPERATION_INTERVAL_TIME = 500;
     protected static final List<String> ACCOUNT_NUMBERS = new ArrayList<>();
     protected static final Map<String, Account> ACCOUNTS = new HashMap<>();
     private static final Random RAND = new Random();
     private final int numberOfClients;
+    private final ScheduledExecutorService executors;
 
     public Bank(int numberOfClients) {
         this.numberOfClients = numberOfClients;
+        executors = Executors.newScheduledThreadPool(numberOfClients);
     }
 
     public void initSimulation() {
-        List<Client> threads = new ArrayList<>();
         int duration = readDuration();
         generateAccounts();
 
         for (String accountNumber : ACCOUNT_NUMBERS) {
-            Client th = new Client(ACCOUNTS.get(accountNumber));
-            th.start();
-            threads.add(th);
+            executors.scheduleAtFixedRate(new Client(ACCOUNTS.get(accountNumber)), 0, RAND.nextInt(MIN_OPERATION_INTERVAL_TIME, MAX_OPERATION_INTERVAL_TIME), TimeUnit.MILLISECONDS);
         }
 
         try {
             Thread.sleep(TimeUnit.SECONDS.toMillis(duration));
-
-            for (Client th : threads)
-                th.stop();
+            executors.shutdown();
         } catch (InterruptedException e) {
             System.out.println("Interrupted");
         }
